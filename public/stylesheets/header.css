@@ -1,0 +1,143 @@
+/*** header.css ***/
+
+.sm-member-of {
+    color: #888888;
+    font-size: 11px;
+    left: -37px;
+    margin-top: 34px;
+    position: relative;
+}
+
+.sm-out-logo .sm-member-of {
+    margin-top: 11px;
+}
+
+
+.sm-member-of a:link, .sm-member-of a:visited, .sm-member-of a:hover, .sm-member-of a:active .sm-out-header a:link, .sm-out-header a:visited, .sm-out-header a:hover, .sm-out-header a:active {
+    color: #888888;
+}
+
+.sm-out-header {
+    left: 6px;
+    position: relative;
+    text-align: right;
+    top: -18px !important;
+}
+
+#header-right {
+    display: inline;
+    position: relative;
+    top: 20px;
+}
+
+#header-right-out {
+    position: relative;
+    top: 10px;
+}
+
+#sm-header-links a {
+    bottom: -2px;
+    font-weight: normal;
+    padding-left: 16px;
+    position: relative;
+    text-align: center;
+}
+#sm-header-links a.sm-email-pic {
+    padding-left: 0;
+}
+
+#sm-header-logo img {
+    margin-bottom: 5px;
+}
+
+.sm-out-logo {
+    margin-top: -11px;
+}
+
+.sm-profile-pic {
+    position: relative;
+    right: -12px;
+    top: -1px;
+}
+
+.sm-profile-pic img {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+a.sm-email-pic {
+    text-decoration: none;
+}
+
+.sm-email-pic img {
+    position: relative;
+    right: -8px;
+}
+
+.tooltip {
+    background-color:#000;
+    border:1px solid #fff;
+    padding:10px 15px;
+    width:130px;
+    display:none;
+    color:#fff;
+    text-align:left;
+    font-size:12px;
+    -moz-box-shadow:0 0 10px #000;
+    -webkit-box-shadow:0 0 10px #000;
+    box-shadow:0 0 10px #000;
+}
+
+.tooltip-login {
+    background:none repeat scroll 0 0 #FFFFFF;
+    border:5px solid #cccccc;
+    display:none;
+    font-size:12px;
+    height:auto;
+    overflow: hidden;
+    padding: 0;
+    text-align:left;
+    width:auto;
+    z-index:10;
+    -webkit-border-radius: 4px;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius: 4px;
+    -moz-border-radius-topright: 0;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    -webkit-box-shadow:0 7px 13px -6px #424143;
+    -moz-box-shadow: 0 7px 13px -6px #424143;
+    box-shadow:0 7px 13px -6px #424143;
+}
+
+
+.sm-login-tooltip input {
+    margin-top: 0;
+    width: 196px;
+}
+
+.sm-login-tooltip h5 {
+    line-height: 14px;
+    margin-bottom: 3px !important;
+    margin-top: 0 !important;
+}
+
+#sm-sign-out-button, #sm-sign-in-button {
+    display: block;
+    margin-right: 0;
+    text-align: center;
+}
+
+#sm-sign-in #sm-sign-out-button A, #sm-sign-in #sm-sign-out-button a:link, #sm-sign-in #sm-sign-out-button a:visited, #sm-sign-in #sm-sign-out-button a:active {
+    text-decoration:none;
+    color:#ffffff;
+    font-size:100%;
+}
+#sm-sign-in #sm-sign-out-button A:hover {
+    color:#ffffff;
+}
+
+#sm-sign-in a:link, #sm-sign-in a:visited, #sm-sign-in a:active {
+    font-size: 10px;
+}

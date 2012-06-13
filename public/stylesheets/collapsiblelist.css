@@ -1,0 +1,22 @@
+
+li .collapsed {
+	margin-top: 5px;
+	margin-right: 5px;
+	float: left;
+	width: 10px;
+	height: 10px;
+	background-image: url("minusbox.gif");
+}
+
+li .open {
+	margin-top: 5px;
+	margin-right: 5px;
+	float: left;
+	width: 10px;
+	height: 10px;
+	background-image: url("arrow-open.png");
+}
+
+ul {
+	list-style-type: none;
+}

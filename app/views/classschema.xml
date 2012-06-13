@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="classstylesheet.xsl"?>
+<annotatedclass>
+	<!-- General information for the class -->
+	<name>ClassName</name>
+	<mapping>ClassMapping</mapping>
+	<action>GET</action>
+	<!-- List of all methods -->
+	<methods>
+		<method>
+			<!-- General information for the method  -->
+			<name>MethodName</name>
+			<mapping>/MethodMapping</mapping>
+			<action>GET</action>
+			<return>ReturnClassName</return>
+			<!-- List of all parameters for the method -->
+			<parameters>
+				<parameter>
+				<!-- General information for the parameter (mapped or otherwise) -->
+					<mapped>True/False</mapped>
+					<class>ParameterClass</class>
+					<!-- Special information for mapped parameters -->
+					<mappinginfo>
+						<!-- Type, value, required, and defaultInfo -->
+						<mappingtype>MappingType</mappingtype>
+						<value>MappingValue</value>
+						<required>True/False</required>
+						<defaultvalue>DefaultValue</defaultvalue>
+					</mappinginfo>
+				</parameter>
+			</parameters>
+		</method>
+	</methods>
+</annotatedclass>

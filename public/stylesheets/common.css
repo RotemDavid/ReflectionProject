@@ -1,0 +1,641 @@
+/*** common.css ***/
+
+/* convenience */
+.sm-l {
+    float: left;
+}
+
+.sm-r {
+    float: right !important;
+}
+
+.sm-b {
+    font-weight: bold !important;
+}
+
+.sm-ct {
+    text-align: center;
+}
+
+.sm-tac {
+    text-align: center;
+}
+
+.sm-tal {
+    text-align: left;
+}
+
+.sm-tar {
+    text-align: right;
+}
+
+.sm-di {
+    display: inline !important;
+}
+
+.sm-dib {
+    display: inline-block;
+}
+
+.sm-db {
+    display: block;
+}
+
+.sm-dn {
+    display: none;
+}
+
+.sm-vh {
+    visibility: hidden;
+}
+
+.sm-unhide:hover .sm-vh {
+    visibility: visible;
+}
+
+.sm-oh {
+    overflow: hidden;
+}
+
+.sm-wsp {
+    white-space: pre;
+}
+
+/* center must have a fixed width */
+.sm-c {
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+ul.sm-clear-ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;  /* yaaki - we might need to change this to "padding" for sm4c */
+}
+ul.sm-horizontal-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.sm-horizontal-ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 25px;
+    float:left;
+    display: block;
+}
+
+.sm-mtg {
+    margin-top: 70px !important;
+}
+
+.sm-mt {
+    margin-top: 10px !important;
+}
+
+.sm-mtb {
+    margin-top: 25px !important;
+}
+
+/* yaaki - MM might be using this */
+.sm-mtm {
+    margin-top: 6px;
+}
+
+/* yaaki - sm4c had this as 10px */
+.sm-m {
+    margin: 6px;
+}
+
+.sm-m-b {
+    margin: 10px;
+}
+
+.sm-pb {
+    padding-bottom: 10px !important;
+}
+
+.sm-pbb {
+    padding-bottom: 25px;
+}
+
+.sm-pbs {
+    padding-bottom: 5px;
+}
+
+.sm-pt {
+    padding-top: 10px;
+}
+
+.sm-pts {
+    padding-top: 5px;
+}
+
+.sm-plb {
+    padding-left: 25px;
+}
+
+.sm-prb {
+    padding-right: 25px;
+}
+
+.sm-pl {
+    padding-left: 10px !important;
+}
+
+.sm-pls {
+    padding-left: 5px;
+}
+
+.sm-prs {
+    padding-right: 5px;
+}
+
+.sm-pr {
+    padding-right: 10px;
+}
+
+.sm-p {
+    padding: 6px;
+}
+
+.sm-mts {
+    margin-top: 5px;
+}
+
+.sm-mb {
+    margin-bottom: 10px !important;
+}
+
+.sm-mbs {
+    margin-bottom: 5px !important;
+}
+
+.sm-mbb {
+    margin-bottom: 25px !important;
+}
+
+.sm-ml {
+    margin-left: 10px;
+}
+
+.sm-mls {
+    margin-left: 5px;
+}
+
+.sm-mlb {
+    margin-left: 25px;
+}
+
+.sm-mr {
+    margin-right: 10px !important;
+}
+
+.sm-mrs {
+    margin-right: 5px !important;
+}
+
+.sm-mrb {
+    margin-right: 25px;
+}
+
+.sm-green-text {
+    color: #289900;
+}
+
+.sm-red-text {
+    color: #DA0013;
+}
+
+.sm-orange-text {
+    color: #DD9927;
+}
+
+.sm-button-fix {
+    padding: 5px 10px !important;
+}
+
+.sm-bor-rad {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-bor {
+    border: 1px solid #bbbbbb;
+}
+
+.sm-bor-bottom {
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.sm-bor-top {
+    border-top: 1px solid #bbbbbb;
+}
+
+.sm-bor-right {
+    border-right: 1px solid #bbbbbb;
+}
+
+.sm-vam, .sm-vam table, .sm-vam td, .sm-vam th, .sm-vam tr {
+    vertical-align: middle !important;
+}
+
+.sm-vab, .sm-vab table, .sm-vab td, .sm-vab th, .sm-vab tr {
+    vertical-align: bottom;
+}
+
+.sm-link, .sm-link:hover {
+    color: #11ADD9;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sm-link:hover {
+    text-decoration: underline;
+}
+
+.ellipsis {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sm-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* FF dotted line fix */
+:-moz-any-link:focus {
+    outline: none;
+}
+
+/* Opera Fix */
+body:before {
+    content:"";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px;
+}
+
+.sm-table-style td {
+    padding: 0;
+}
+
+hr.dotted {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px dotted;
+    color: #BBBBBB;
+    display: inline-block;
+    margin: 10px 0;
+    top: 0;
+}
+
+hr.line {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid;
+    color: #BBBBBB;
+    display: inline-block;
+    margin: 5px 0;
+    top: 0;
+}
+
+.sm-settings hr.space {
+    margin: 20px !important;
+}
+
+.sm-settings hr {
+    margin: 0 !important;
+}
+
+input[disabled] {
+    background-color: #EEEEEE;
+    border: 1px solid #BBBBBB;
+}
+
+
+/************* default ***********/
+a:link, a:visited, a:active {
+    color:#11ADD9;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#11ADD9;
+    text-decoration:underline;
+}
+
+#termsAndConditions {
+    height:150px;
+    overflow:auto;
+    border:1px solid #BBB;
+    padding:4px;
+    background-color: #ffffff;
+}
+
+.sm-invite-pending {
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+    cursor: default !important;
+    font-weight: bold;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 6px 0;
+}
+
+.sm-invite-pending, .sm-inactive-button {
+    background: #cccccc !important;
+    cursor: default !important;
+}
+
+.sm-invite-email {
+    background-color: #fff;
+    padding:10px;
+    border: 1px dashed #bbbbbb;
+}
+
+h1 a.sm-contact-us-title-link {
+    margin-top: -9px;
+    padding: 7px 18px !important;
+}
+.sm-form .sm-text {
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+    margin: 9px 8px 0 0;
+}
+
+.sm-form {
+    overflow: hidden !important;
+}
+
+.sm-checkbox {
+    margin: 0;
+    position: relative !important;
+    top: 0 !important;
+    width: 13px !important;
+}
+
+input.sm-small {
+    width: 100px;
+}
+
+.sm-unread {
+    background-color: #D5EBF2;
+    display: inline-block;
+    padding: 5px 0 5px 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-unread img {
+    margin-left: 5px;
+}
+
+.sm-card-name, .sm-card-price {
+    font-size: 14px;
+    line-height:1.5;
+}
+
+.sm-scrollbox {
+    overflow-y: auto;
+    height: 475px;
+    border: 1px solid #bbb;
+}
+
+.sm-scrollbox table, td, th {
+    padding: 3px 0;
+}
+
+.sm-scrollbox-header {
+    background-color: #424143;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+/* ribbon */
+.sm-ribbon {
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.97052619222005159,M21=0.43052619222005157, M22=0.8914448613738104, sizingMethod='auto expand');
+    zoom: 1;
+    color: #FFFFFF;
+    font-weight: bold;
+    left: 63px;
+    line-height: 18px;
+    padding-bottom: 1px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 8px;
+    width: 100px;
+}
+
+.sm-ribbon.green {
+    background: #668F23 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#BCCB33), to(#668F23)) !important;
+    background-image: -webkit-linear-gradient(top, #BCCB33, #668F23) !important;
+    background-image: -moz-linear-gradient(top, #BCCB33, #668F23) !important;
+    background-image: -ms-linear-gradient(top, #BCCB33, #668F23) !important;
+    background-image: -o-linear-gradient(top, #BCCB33, #668F23) !important;
+    background-image: linear-gradient(top, #BCCB33, #668F23) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#BCCB33', EndColorStr='#668F23') !important;
+    border-bottom: 1px solid #95A053;
+    box-shadow: 0 -1px 1px #668F23;
+    text-shadow: -1px 1px 0 #668F23;
+}
+
+.sm-ribbon.orange {
+    background: #DD9927 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFB43F), to(#DD9927)) !important;
+    background-image: -webkit-linear-gradient(top, #FFB43F, #DD9927) !important;
+    background-image: -moz-linear-gradient(top, #FFB43F, #DD9927) !important;
+    background-image: -ms-linear-gradient(top, #FFB43F, #DD9927) !important;
+    background-image: -o-linear-gradient(top, #FFB43F, #DD9927) !important;
+    background-image: linear-gradient(top, #FFB43F, #DD9927) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFB43F', EndColorStr='#DD9927') !important;
+    border-bottom: 1px solid #E29416;
+    box-shadow: 0 -1px 1px #DD9927;
+    text-shadow: -1px 1px 0 #DD9927;
+}
+
+.sm-ribbon.gray {
+    background: none repeat scroll 0 0 #DDDDDD !important;
+    border: 1px solid #BBBBBB;
+    font-size: 14px;
+    left: 28px;
+    padding: 5px;
+    text-shadow: -1px 1px 0 #BBBBBB;
+    top: 13px;
+    z-index: 200;
+    color: #444444;
+}
+
+.sm-readonly {
+    color: #909090;
+    background-color: #f4f4f4 !important;
+}
+
+.sm-organization-logo-title {
+    background-color:#000;
+    color:#FFF;
+    display:inline-block;
+    height:150px;
+    width:150px;
+    padding:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    text-align:center;
+    vertical-align:middle;
+    line-height:75px;
+    font-weight:bold;
+    margin-bottom:5px;
+    font-size:30px
+}
+
+.sm-organization-logo-subtitle {
+    font-size:20px;
+    color:gold;
+}
+
+.sm-bond-logo-title {
+    background-image: url('../../master-template/images/bond-icon-large.png');
+    display:inline-block;
+    height:150px;
+    width:150px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    text-align:center;
+    vertical-align:middle;
+    line-height:93px;
+    margin-bottom:5px;
+    font-size:30px;
+    padding-bottom: 5px;
+}
+
+.sm-bond-logo-subtitle {
+    width:150px;
+    font-size:20px;
+    color:white;
+}
+
+/******************************/
+
+/*** SecondMarket Table ***/
+table.sm-table {
+    background: #ffffff;
+    width: 100%;
+    padding: 0;
+    border-collapse: collapse;
+    border: 1px solid #bbbbbb;
+}
+
+table.sm-table th, table.sm-table td {
+    padding: 5px 5px 4px;
+    line-height: 18px;
+}
+
+table.sm-table th {
+    background-color:#DFDFDF;
+    font-weight: bold;
+    vertical-align: middle;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+table.sm-table td, table.sm-table tbody th {
+    border-top: 1px solid #bbbbbb;
+    vertical-align: middle;
+}
+
+/*** Border Table ***/
+.sm-table-border {
+    border: 1px solid #ddd;
+    border-collapse: separate;
+    *border-collapse: collapse;
+}
+
+.sm-table-border th + th, .sm-table-border td + td, .sm-table-border th + td {
+    border-left: 1px solid #bbbbbb;
+}
+
+/*** Zebra Table ***/
+.sm-table-striping tbody tr:nth-child(odd), .sm-table-striping tbody tr.odd {
+    background: #E5ECF9;
+}
+
+/*** Table Input Fix ***/
+.sm-table input[type="text"], .sm-table input[type="password"], .sm-table input.text, sm-table input.title, sm-table textarea, select {
+    margin: 0;
+}
+
+/*** Table Top and Bottom ***/
+.sm-table-bottom, .sm-table-top {
+    background: #DFDFDF;
+    border: 1px solid #bbbbbb;
+    padding: 5px;
+}
+
+.sm-table-bottom {
+    border-top: 0;
+}
+
+.sm-table-top {
+    border-bottom: 0;
+}
+
+/******************************/
+
+.sm-opportunity-logo {
+    background-image: url('../../master-template/images/facebook_150.png');
+    display:inline-block;
+    height:140px;
+    width:140px;
+    padding:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    text-align:center;
+    vertical-align:middle;
+    line-height:75px;
+    font-weight:bold;
+    margin-bottom:5px;
+    font-size:30px
+}
+
+.sm-underline {
+    border-bottom: 1px solid #BBB;
+}
+
+.sm-row-alt {
+    background-color: #E5ECF9 !important;
+    color: #000000 !important;
+}
+
+.sm-top {
+    font-size: 11px;
+    float: right;
+    font-weight: normal;
+}
+
+/* yaaki - we really need to fix this take css from master */
+.sm-docs {
+    list-style-image: url("http://cdn1.iconfinder.com/data/icons/CrystalClear/16x16/mimetypes/pdf.png");
+}
+
+.sm-full-width {
+    width: 100%;
+}

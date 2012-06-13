@@ -1,0 +1,1148 @@
+/*** style.css ***/
+
+
+/* main content */
+.sm-card-hidden {
+    background-color: #DFDFDF;
+}
+
+.sm-big-font {
+    font-size: 40px !important;
+}
+
+.sm-card-container {
+    overflow: hidden;
+}
+
+.sm-card h4 {
+    margin-bottom: 0;
+}
+
+.bid-expander, bid-expander:hover {
+    padding: 0;
+}
+
+
+
+/*------ welcome box ------*/
+.sm-welcome-box {
+    background-color: #DFDFDF;
+    height: 300px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-welcome-box p {
+    padding: 0 15px 0 15px;
+    font-size: 12px;
+    margin-bottom: 0;
+    line-height: 17px;
+    height: 108px;
+}
+
+.sm-welcome-box a:link, .sm-welcome-box a:visited , .sm-welcome-box a:active  {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+
+.sm-welcome-box-fix {
+    margin-top: 23px;
+}
+
+.sm-welcome-box img {
+    padding: 15px;
+}
+/*------ end welcome box ------*/
+
+
+
+/* input with background image */
+input.sm-dollar-bg {
+    background: url("../../master-template/images/sm-dollor.png") no-repeat scroll 0 0 #FFFFFF;
+    padding-left: 15px;
+    width: 290px;
+}
+
+.sm-add-box input.sm-dollar-bg, input.sm-dollar-bg.sm-small {
+    width: 90px;
+}
+
+/* input with background image */
+input.sm-percent-bg {
+    background: url("../../master-template/images/sm-percent.png") no-repeat scroll 100% 0 #FFFFFF;
+    padding-right: 15px;
+    width:290px;
+}
+input.sm-percent-bg.sm-small {
+    width:90px;
+}
+
+input.sm-at-symbol-bg {
+    background: url("../../master-template/images/sm-at-symbol.png") no-repeat scroll 0 0 #FFFFFF;
+    padding-left: 15px;
+    width:290px;
+}
+
+#sm-accredit-box {
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+.sm-cal-icon {
+    margin-left: 5px;
+    position: relative;
+    top: 3px;
+}
+
+.sm-inline-icon {
+    top:3px;
+    position: relative;
+}
+
+#exposeMask {
+    background-color: #000000;
+}
+
+#profilePicture {
+    height: 150px;
+    width: 150px;
+    background: #DFDFDF;
+    display: block;
+}
+
+.hasPlaceholder {
+    color: #A9A9A9;
+}
+
+
+
+/*------ accreditation progress ------*/
+.sm-accreditation-progress {
+    border-bottom: 1px solid #11ADD9;
+    color: #444444;
+    display: inline-block;
+    width: 100%;
+}
+
+.sm-accreditation-progress li {
+    margin-right: 22px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+}
+
+.sm-accreditation-progress img {
+    position: relative;
+    top: 27px;
+}
+/*------ end accreditation progress ------*/
+
+
+
+.sm-not-implemented {
+    color: #999999;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-feed-content {
+    min-height: 88px;
+}
+
+.sm-removed-item {
+    text-align:center;
+    padding:10px;
+}
+
+
+
+/*------ gradient box ------*/
+.sm-gradient-box {
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 4px;
+    height: 92px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-gradient-box h4 {
+    background: none !important;
+    border: 1px !important;
+    padding: 0 !important;
+}
+
+.sm-gradient-box h1, .sm-gray-box h1 {
+    margin-top: 5px;
+    font-size: 40px !important;
+    font-weight: bold;
+}
+
+.sm-gradient-box h1.sm-tombstone-small {
+    font-size: 30px !important;
+    padding-top: 8px;
+}
+
+.sm-gradient-box h2 {
+    margin-left: 6px;
+}
+
+.sm-gradient-box hr {
+    border-bottom: 0 none;
+    border-top: 0 none;
+    margin-bottom: 6px;
+}
+
+.sm-gradient-box .sm-badge {
+    margin-left: 5px;
+    margin-top: 4px;
+}
+/*------ end gradient box ------*/
+
+
+
+/*------ overview info ------*/
+.sm-overview-info .sm-gradient-box {
+    display: block;
+    width: 124px;
+}
+
+.sm-overview-top {
+    border-color: #BBB;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    background: none repeat scroll 0 0 #8f8f8f;
+    color: #FFF;
+    padding: 6px 10px 6px 23px;
+    margin-bottom:-2px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.sm-overview-top a:link, .sm-overview-top a:visited, .sm-overview-top a:active {
+    color: #FFF;
+}
+/*------ end overview info ------*/
+
+
+
+.sm-badge, .sm-user-icon {
+    background-color: #DDDDDD;
+    display: block;
+    height: 50px;
+    width: 50px;
+    color: transparent;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-icon-border {
+    width: 150px;
+    height: 150px;
+    background-color: #DDDDDD;
+    color: transparent;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-icon-border img {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-icon-border-small {
+    background-color: #DDDDDD;
+    color: transparent;
+    display: inline-block;
+    height: 50px;
+    letter-spacing: 0.5px;
+    width: 50px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-gray-box {
+    background-color: #DFDFDF;
+    padding: 23px;
+    border: 1px solid #bbbbbb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+
+/*------ buy sell box ------*/
+.sm-buy-box, .sm-sell-box, .sm-auction-not-clear, .sm-auction-clear {
+    background-color: #ddf1f8;
+    padding: 23px;
+    border: 1px solid #bbbbbb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-sell-box {
+    background-color: #f9f0df;
+}
+
+.sm-buy-box {
+    background-color: #ddf1f8;
+}
+
+.sm-buy-box table tr th {
+    background-color: #9fd0df;
+}
+
+.sm-auction-clear {
+    background: #e6efc2;
+}
+
+.sm-auction-not-clear {
+    background: #fbe3e4;
+}
+/*------ end buy sell box ------*/
+
+
+
+/*------ gray box ------*/
+.sm-gray-box.autoheight, .sm-sell-box.autoheight, .sm-buy-box.autoheight {
+    height: auto;
+    min-height: 0;
+}
+
+.sm-gray-box .sm-mt, .sm-sell-box .sm-mt, .sm-buy-box .sm-mt {
+    margin-top:4px;
+}
+
+.sm-gray-box .fix, .sm-sell-box .fix , .sm-buy-box .fix{
+    margin-top: -2px;
+}
+
+.sm-gray-box.buy-sell-info .sm-gradient-box, .sm-sell-box.buy-sell-info .sm-gradient-box, .sm-buy-box.buy-sell-info .sm-gradient-box, .sm-auction-clear.buy-sell-info .sm-gradient-box, .sm-auction-not-clear.buy-sell-info .sm-gradient-box {
+    width: 180px;
+}
+
+.sm-gray-box.buy-sell-info .sm-gradient-box.sm-mrs, .sm-sell-box.buy-sell-info .sm-gradient-box.sm-mrs, .sm-buy-box.buy-sell-info .sm-gradient-box.sm-mrs {
+    margin-right: 4px !important;
+}
+/*------ end gray box ------*/
+
+
+
+/* buy sell info */
+.buy-sell-info .sm-gradient-box h1 {
+    font-size: 20px !important;
+}
+
+.buy-sell-info .sm-gradient-box {
+    height: 70px;
+}
+
+/* for the settings page*/
+.sm-flat-border-top {
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    -moz-border-radius-topleft: 0px !important;
+    -moz-border-radius-topright: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    margin-top: -12px;
+}
+
+.sm-gray-box-large {
+    background-color: #DFDFDF;
+    padding: 15px;
+    border: 1px solid #bbbbbb;
+    min-height:200px;
+    height: 200px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* buy sell table */
+.sm-buy-sell-table input {
+    background-color: #FFF6BF!important;
+    margin: 0 !important;
+    padding: 2px;
+    width: 80px;
+    text-align: right;
+}
+.sm-buy-sell-table input.sm-dollar-bg {
+    background-color: #FFF6BF !important;
+    background: url("../../master-template/images/sm-dollor-table-trans.png") no-repeat scroll 0 0 #FFF6BF;
+}
+.sm-buy-sell-table input.validation-error {
+    background-color: #FBE3E4 !important;
+}
+
+.sm-add-box {
+    background-color: #d5edf8;
+    margin-bottom: 5px;
+    clear: both;
+    display: block;
+    padding-bottom: 5px;
+}
+
+img.sm-add-box-top {
+    margin-bottom: 7px;
+}
+
+#profileConnect {
+    margin-top: 7px;
+}
+
+.sm-place-bid input {
+    width: 138px;
+}
+
+.sm-place-bid a.button, .sm-place-bid button {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/*------ right sidebar ------*/
+.sm-view-all-details .sm-gradient-box {
+    background: none repeat scroll 0 0 #DFDFDF;
+    font-size: 10px;
+    height: 46px;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+.sm-view-all-details .sm-gradient-box h1 {
+    font-size: 18px !important;
+    margin-top: 0;
+}
+
+#sm-getting-started ol {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 5px 5px 5px 0;
+    padding-left: 21px;
+}
+
+#sm-getting-started .sm-line-through {
+    text-decoration: line-through;
+}
+
+/* Fixes ckeditor in HTML Source mode */
+.sm-widget-box textarea[role=textbox] {
+    width: 100% !important;
+}
+
+/* my statistics */
+#sm-my-statistics .number {
+    font-size: 33px;
+    padding-right: 10px;
+    padding-top: 0;
+}
+
+#sm-my-statistics .big {
+    font-size: 17px;
+    margin-bottom: -3px;
+    padding-top: 5px;
+}
+
+.sm-connections-widget img, .sm-connections-in-common-widget img {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.sm-search-box input {
+    width: 238px;
+}
+
+.sm-watch-list-widget ul, .sm-holdings-list ul, .sm-popular-news-widget ul {
+    font-size: 14px;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.sm-popular-news-widget ul {
+    font-size: 12px;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.sm-watch-list-widget li, .sm-holdings-list li, .sm-popular-news-widget li, .sm-market-reports div, .sm-dotted-line table {
+    border-top: 1px dotted #BBBBBB;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+li.sm-watch-list-widget-last, li.sm-holdings-list-last, li.sm-popular-news-widget-last, div.sm-market-reports-last, table.sm-dotted-line-last {
+    border-top: 1px dotted #ffffff;
+    padding-top: 0;
+}
+
+.sm-watch-list-widget img, .sm-holdings-list img, .sm-connections-widget img, .sm-connections-in-common-widget img {
+    background-color: #DDDDDD;
+    clear: left;
+    color: transparent;
+    float: left;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    width: 50px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-popular-news-widget img {
+    background-color: #DDDDDD;
+    clear: left;
+    color: transparent;
+    float: left;
+    height: 25px;
+    width: 25px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-trending-up {
+    float: right;
+    color: #70b230;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* left sidebar */
+.sm-cancel, .filterClear, .sm-link-button {
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.sm-cancel.fix {
+    margin-left: 0;
+    position: relative;
+    top: 18px;
+}
+
+#purr-container {
+    position: fixed;
+    bottom: 0;
+    right: 12px;
+}
+
+/* js class */
+.sm-purr {
+    position: relative;
+    width: 300px;
+}
+
+.sm-purr .close {
+    display:none;
+}
+
+.sm-add-friend {
+    text-align: center;
+    height:125px;
+}
+
+.sm-add-friend p {
+    margin: 0;
+}
+
+.sm-add-friend p.name {
+    height: 18px;
+    width: 130px;
+    overflow: hidden;
+}
+
+.sm-add-friend .sm-quick-invite a.button, .sm-add-friend .sm-quick-invite button {
+    float: none !important;
+    width: 100px;
+    margin: auto;
+}
+
+.sm-invite-logo {
+    background:#fff;
+    text-align: center;
+}
+
+/* card hover */
+.sm-click-card:hover {
+    background: #D5EDF8;
+    cursor: pointer;
+}
+
+/* 404 */
+.sm-not-found {
+    margin: 30px 0 0;
+}
+
+.sm-not-found h1, .sm-access-denied h1 {
+    margin-top: 100px;
+}
+
+.sm-trusted_connection {
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 6px 0;
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:100%;
+    text-align: center;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color: #5F8621 !important;
+    background: #E6EFC2 !important;
+    border-top: 1px solid #c6d880 !important;
+    border-left: 1px solid #c6d880 !important;
+    -webkit-border-radius: 4px 0 4px 0;
+    -moz-border-radius: 4px 0 4px 0;
+    border-radius: 4px 0 4px 0;
+}
+
+td .sm-trusted_connection {
+    position: relative;
+    top: 9px;
+    left: 9px;
+}
+
+#profileLeftSide .sm-trusted_connection {
+    width: 148px;
+}
+
+#profileLeftSide {
+    width: 150px;
+}
+
+#trusted_connection_profile.sm-trusted_connection {
+    display: block;
+    border-right: 1px solid #c6d880 !important;
+    border-bottom: 1px solid #c6d880 !important;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+    text-shadow: 1px 1px 0 #ffffff;
+    display: block;
+}
+
+#trusted_connection_mini.sm-trusted_connection {
+    border-right: 1px solid #c6d880 !important;
+    border-bottom: 1px solid #c6d880 !important;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+    top: 0;
+    left: 0;
+    text-shadow: 1px 1px 0 #ffffff;
+}
+
+.sm-stripe {
+    background-color: #eee;
+}
+
+/* jquery ui */
+.ui-slider-range {
+    padding: 0 !important;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    background: url(../../master-template/images/sm-slide-marker.png);
+    cursor: pointer;
+    height: 21px;
+    margin: 0 0 3px -8px;
+    outline: none;
+    border: 0;
+    top: -6px;
+    width: 16px;
+}
+
+#funding-container div#funding-txt-container {
+    background:white;
+    padding: 5px 0 20px 0;
+    margin: 0 0 0 0;
+}
+
+/* Buy Sell Table */
+.sm-buy-sell-table {
+    width: 100%;
+    border: 1px solid red;
+    background-color: #FFF;
+    border: solid #bbbbbb;
+    border-width: 0 1px 1px 1px;
+}
+
+.sm-buy-sell-table tr th {
+    background-color:#DFDFDF;
+}
+
+.sm-buy-sell-table th, .sm-buy-sell-table td {
+    padding: 3px 3px;
+    border-top: 1px solid #bbbbbb;
+}
+
+.sm-buy-sell-table tr.sm-buy-sell-table-last td {
+    border-bottom: 0 none;
+    border-top: 1px solid #bbbbbb;
+}
+
+.sm-plus-minus {
+    border: 1px solid #BBBBBB;
+    color: #555555;
+    display: block !important;
+    font-weight: bold;
+    padding: 0 0 1px 1px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    width: 18px;
+    background-color: #cccccc !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#cccccc)) !important;
+    background-image: -webkit-linear-gradient(top, #ededed, #cccccc) !important;
+    background-image: -moz-linear-gradient(top, #ededed, #cccccc) !important;
+    background-image: -ms-linear-gradient(top, #ededed, #cccccc) !important;
+    background-image: -o-linear-gradient(top, #ededed, #cccccc) !important;
+    background-image: linear-gradient(top, #ededed, #cccccc) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ededed', EndColorStr='#cccccc') !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-plus-minus:hover {
+    background: #cccccc !important;
+    cursor:pointer;
+}
+
+/* js class */
+.sm-option-details-link {
+    display: none;
+}
+
+.sm-option-details th, .sm-option-details td {
+    border-top: 0 solid #ffffff !important;
+    padding: 0 0 0 3px;
+}
+
+.sm-click-card .sm-option-details th, .sm-click-card .sm-option-details td, #lq-sell-summary .sm-option-details td {
+    border-top: 0 !important;
+    padding: 0;
+}
+
+.sm-gray-back {
+    background-color: #888;
+    color: #FFF;
+}
+
+.sm-gray-back p {
+    padding: 10px 0 10px 10px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.sm-arrow-right {
+    background: url(../../master-template/images/gray-bg-arrow-right.png) no-repeat right; /*** static image ***/
+}
+
+li .sm-inbox {
+    position: relative;
+    left: 13px;
+}
+
+/*------ news vote style ------*/
+.sm-newsvote-down:hover, .jsNewsVoteDown:hover {
+    background: white !important;
+}
+
+.sm-newsvote-down, .jsNewsVoteDown {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 0 solid !important;
+    color: #11ADD9 !important;
+    font-size: 10px !important;
+    font-weight: normal;
+    width: 62px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#ffffff') !important; /* yaaki - overwrite blueprint-overwrite.css style */
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.2) inset, 0 0 0 rgba(0, 0, 0, 0.05);
+}
+
+.sm-newsvote-down:hover, .jsNewsVoteDown:hover {
+    text-decoration: underline;
+    color: #11ADD9;
+}
+
+.sm-newsvote-count {
+    background: #DFDFDF;
+    width: 62px;
+    padding: 3px 0 !important;
+    font-weight: bold;
+    margin-bottom: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-newsvote-up {
+    width: 62px;
+}
+
+#newsWidget .sm-widget-newsvote-up-button {
+    font-size: 10px;
+    padding: 0 !important;
+    width: 40px;
+    float: none;
+}
+
+.sm-newsvote-liked, button.jsNewsVoteLiked:hover, button.jsNewsVoteLiked {
+    cursor: default!important;
+    background: #bcbcbc!important;
+}
+/*------ end news vote style ------*/
+
+
+
+input[type="text"].sm-validation-input , input[type="password"].sm-validation-input , input.text.sm-validation-input , input.title.sm-validation-input , textarea.sm-validation-input , select.sm-validation-input {
+    background-color: #FBE3E4;
+}
+
+input[type="text"].sm-highlight-input, input[type="password"].sm-highlight-input, input.text.sm-highlight-input, input.title.sm-highlight-input, textarea.sm-highlight-input, select.sm-highlight-input {
+    background-color: #FFF6BF;
+}
+
+input[type="text"].sm-inactive-input, input[type="password"].sm-inactive-input, input.text.sm-inactive-input, input.title.sm-inactive-input, textarea.sm-inactive-input, select.sm-inactive-input {
+    background-color: #DFDFDF;
+}
+
+a.sm-button.sm-inactive-input, a.sm-button.sm-inactive-input:hover {
+    background:#DFDFDF !important;
+    cursor:default;
+}
+
+/* yaaki - brought this over from sm4c */
+input[disabled], textarea[disabled], select[disabled] {
+    background-color: #DFDFDF;
+    border: 1px solid #BBBBBB;
+    color: #666666;
+}
+
+.sm-small-paragraph {
+    width: 300px;
+}
+
+table.bond-expanded tr td div {
+    width: 155px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+table.bond-expanded tr td {
+    padding-right: 5px;
+}
+
+table.bond-expanded tr td.header {
+    text-align: right;
+}
+
+/*compact cards */
+table.bond-compact td {
+    border-bottom: 1px solid #BBBBBB;
+    padding-top: 2px;
+    vertical-align: middle;
+}
+
+.trigger {
+    border: 1px solid #CCC;
+    padding: 9px 10px;
+    background: #F4F4F4;
+    width: 90px;
+    position: relative;
+    top: 6px;
+    left: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 19px;
+}
+.trigger:hover {
+    background: #FFFFFF;
+}
+
+div.info {
+    z-index: 1;
+}
+
+table.bond-compact tr td div.info {
+    position: absolute;
+    background: #FFF;
+    border: 5px solid #666;
+    color: #000;
+    font-size: 12px;
+    font-weight: normal;
+    max-width: 450px;
+    margin-left: 150px;
+}
+
+div.info table tr {
+    height: auto;
+}
+div.info table tr td {
+    border: none;
+    padding:  0 3px 0 3px;
+}
+
+.top-arrow {
+    height: 13px;
+    top: 10px;
+    left: 180px;
+    position: relative;
+    background: url("../../master-template/images/top-arrow.png") no-repeat scroll 0 0;
+    z-index: 1;
+}
+
+.sm-liquid-text {
+    width: inherit;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table.liquidity-event {
+    width:610px;
+}
+
+/* yaaki - fix this */
+.inline {
+    display: inline;
+}
+
+.sm-verified-cell {
+    color: #5F8621;
+    background:url("../../master-template/images/sm-green-check-small.png") no-repeat right;
+    padding-right:15px;
+}
+div.sm-sec {
+    padding: 10px 5px;
+    border-right: 1px solid #bbb;
+    width: 226px;
+    float: left;
+    text-align: center;
+    height: 53px;
+}
+
+/* Trust table styling rchu */
+table.sm-trust-assets th {
+    border-bottom: 1px solid #BBB;
+    background-color: #FFF;
+}
+
+table.sm-trust-assets th.sm-series {
+    width: 100px;
+}
+
+table.sm-trust-assets th.sm-cusip {
+    width: 130px;
+}
+
+table.sm-trust-assets th.sm-coupon {
+    width: 150px;
+}
+
+table.sm-trust-assets th.sm-prodtype {
+    width: 223px;
+}
+
+#sm-contact-info img {
+    position: relative;
+    top: 9px;
+}
+
+.sm-legend {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left !important;
+    margin-top: 0;
+}
+
+/******************************/
+
+/*** SecondMarket Table ***/
+table.sm-table {
+    background: #ffffff;
+    width: 100%;
+    padding: 0;
+    border-collapse: collapse;
+    border: 1px solid #bbbbbb;
+}
+
+table.sm-table th, table.sm-table td {
+    padding: 5px 5px 4px;
+    line-height: 18px;
+}
+
+table.sm-table th {
+    background-color:#DFDFDF;
+    font-weight: bold;
+    vertical-align: middle;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+table.sm-table td, table.sm-table tbody th {
+    border-top: 1px solid #bbbbbb;
+    vertical-align: middle;
+}
+
+/*** Border Table ***/
+.sm-table-border {
+    border: 1px solid #ddd;
+    border-collapse: separate;
+    *border-collapse: collapse;
+}
+
+.sm-table-border th + th, .sm-table-border td + td, .sm-table-border th + td {
+    border-left: 1px solid #bbbbbb;
+}
+
+/*** Zebra Table ***/
+.sm-table-striping tbody tr:nth-child(odd) td {
+    background-color: #EFF4FF;
+}
+
+/*** Table Input Fix ***/
+.sm-table input[type="text"], .sm-table input[type="password"], .sm-table input.text, sm-table input.title, sm-table textarea, select {
+    margin: 0;
+}
+
+.sm-photo-auth {
+    width: 480px;
+    float: left;
+}
+
+.sm-featured {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 1em;
+    border-color: #709625;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    background: none repeat scroll 0 0 #709625;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 6px 10px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.sm-feature-box {
+    border: 1px solid #709625;
+    padding: 10px;
+    background: none repeat scroll 0 0 #EDEDED;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+/******************************/
+
+/*** Claimed Company Custom CSS ***/
+.sm-claimed-company-icon {
+    width: 85px;
+}
+
+.sm-claimed-company-text {
+    width: 153px;
+}
+
+.sm-radio-table td, .sm-radio-table th {
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.sm-radio-table td {
+    border-bottom: 1px solid #DDD;
+}
+
+
+
+/*------ SM Widget Box ------*/
+.sm-widget-box {
+    border: 1px solid #BBB;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sm-widget-box h3 {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 1em;
+    background: none repeat scroll 0 0 #DFDFDF;
+    color: #555555;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 6px 10px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    border-bottom: 1px solid #BBB;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+/*------ end SM Widget Box ------*/
+
+
+
+/** Fund Styling **/
+#sm-fees h2 {
+    font-size:20px;
+}
+.sm-anchorlinks {
+    padding: 5px 10px;
+    border: 1px dotted #BBB;
+    background: #F8F7F7;
+    width: 610px;
+}
+
+.sm-anchorlinks a {
+    padding: 0 5px;
+}
+
+/**   Documents table **/
+table.documents {
+    width: 100%;
+}
+
+table.documents tr th, table.documents tr td {
+    padding-right: 10px;
+}
+
+table.documents tr th.fileName {
+    min-width: 350px;
+}

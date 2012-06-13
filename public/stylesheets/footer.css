@@ -1,0 +1,125 @@
+/*** footer.css ***/
+
+#sm-footer a {
+    padding-left: 25px;
+}
+
+#sm-footer {
+    font-size: 10px;
+}
+
+/***** MARKETING *****/
+
+/***** Footer *****/
+a.footer_link {
+    color:#fff;
+}
+
+a.footer_link:hover {
+    text-decoration: underline;
+}
+
+.footer_box {
+    border-left: 1px solid #FFFFFF;
+    float: left;
+    height: 218px;
+    margin-left: 13px;
+    padding-left: 17px;
+    width: 144px;
+}
+
+/*** Sticky Footer Solution ***/
+
+/* yaaki - this hack is not just effecting the footer, it's adding margin/padding 0 for everything */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* yaaki not sure why this is here? this effects everything */
+html, body {
+    min-width:950px;
+    width: auto !important;
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 270px; /* must be same height as the footer */
+}
+
+/*Opera Fix sticky footer*/
+body:before {
+    content: "";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px;
+}
+
+#footer {
+    background: #67666A;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#67666A), to(#424143));
+    background-image: -webkit-linear-gradient(top, #67666A, #424143);
+    background-image: -moz-linear-gradient(top, #67666A, #424143);
+    background-image: -ms-linear-gradient(top, #67666A, #424143);
+    background-image: -o-linear-gradient(top, #67666A, #424143);
+    background-image: linear-gradient(top, #67666A, #424143);
+    color: #ffffff;
+    position: relative;
+    /*sticky footer */
+    margin-top: -273px; /* negative value of footer height */
+    height: 273px;
+    clear: both;
+}
+
+#footer h1 {
+    color: #FFFFFF;
+    line-height: 0.7;
+    padding-bottom: 13px;
+    padding-top: 22px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#footer .sm-line-bottom {
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+#footer .sm-line-top {
+    border-top: 1px solid #777;
+    padding-top: 10px;
+}
+
+/* Stay Connected */
+.stay-connected li a, .stay-connected-widget li a {
+    list-style-type: none;
+    background: url("../../master-template/images/stay-connected.png") no-repeat scroll;
+    padding: 0 0 1px 20px
+}
+
+.stay-connected-widget li a {
+    background: url("../../master-template/images/stay-connected-color.png") no-repeat scroll;
+}
+
+.stay-connected li#madeinnyc a, .stay-connected-widget li#madeinnyc a {
+    background-position: 0 -16px;
+}
+.stay-connected li#givefeedback a, .stay-connected-widget li#givefeedback a {
+    background-position: 0 -31px;
+}
+.stay-connected li#linkedin a, .stay-connected-widget li#linkedin a {
+    background-position: 0 -47px;
+}
+.stay-connected li#quora a, .stay-connected-widget li#quora a {
+    background-position: 0 -63px;
+}
+.stay-connected li#twitter a, .stay-connected-widget li#twitter a {
+    background-position: 0 -80px;
+}
+/*End Stay connected*/

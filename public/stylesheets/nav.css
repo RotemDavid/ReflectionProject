@@ -1,0 +1,430 @@
+/*** nav.css ***/
+
+.sm-bubble {
+    background: #EF4A4A;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#EF4A4A), to(#AF2B2B));
+    background-image: -webkit-linear-gradient(top, #EF4A4A, #AF2B2B);
+    background-image: -moz-linear-gradient(top, #EF4A4A, #AF2B2B);
+    background-image: -ms-linear-gradient(top, #EF4A4A, #AF2B2B);
+    background-image: -o-linear-gradient(top, #EF4A4A, #AF2B2B);
+    background-image: linear-gradient(top, #EF4A4A, #AF2B2B);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#EF4A4A', EndColorStr='#AF2B2B');
+    color: #FFFFFF;
+    display: inline;
+    font-size: 11px;
+    left: 23px;
+    min-width: 10px;
+    padding: 1px 5px 2px;
+    position: absolute;
+    text-align: center;
+    top: -19px;
+    width: auto !important;
+    z-index: 1;
+    text-shadow: 1px 1px 0 #AF2B2B;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    box-shadow: 0 0 3px #333333;
+}
+
+/*------ sm-nav-bar ------*/
+
+.sm-nav-bar {
+    font-size: 14px;
+    color: #FFF;
+    height: 39px;
+    background: #67666A;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#67666A), to(#424143));
+    background-image: -webkit-linear-gradient(top, #67666A, #424143);
+    background-image: -moz-linear-gradient(top, #67666A, #424143);
+    background-image: -ms-linear-gradient(top, #67666A, #424143);
+    background-image: -o-linear-gradient(top, #67666A, #424143);
+    background-image: linear-gradient(top, #67666A, #424143);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#67666A', EndColorStr='#424143');
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.sm-nav-bar a:link, .sm-nav-bar a:visited, .sm-nav-bar a:active {
+    color: #ffffff;
+    display: block;
+    font-weight: normal;
+    padding: 9px 13px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #424143;
+    width: auto;
+}
+
+.sm-nav-bar li:hover {
+    background: #424143;
+}
+
+.sm-nav-bar a.selected {
+    background: #424143
+}
+
+.sm-nav-bar li li:hover {
+    background: #67666A;
+}
+
+.sm-nav-bar li:hover ul {
+    position: absolute;
+    display: inline;
+}
+
+.sm-nav-bar li ul a {
+    border: none;
+}
+
+.sm-nav-bar li {
+    display: inline;
+    float: left;
+    list-style-type: none;
+}
+
+.sm-nav-bar li ul {
+    background: #424143;
+    display: none;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+}
+
+.sm-nav-bar li li {
+    display:block;
+    float: none;
+}
+
+.sm-nav-bar li li a {
+    height: 20px;
+    min-width: 140px;
+    width: auto !important;
+    width: 140px;
+}
+/*------ end sm-nav-bar ------*/
+
+
+
+/*------ sm-navigation ------*/
+/* jQuery SuckerFish needs this for dropdown style to work */
+#sm-navigation {
+    margin: 0;
+    padding: 0 0 0 7px;
+}
+
+ul#sm-navigation li {
+    border-right: 1px solid #424143;
+}
+
+#sm-navigation ul.children li {
+    border-right: 0 solid !important;
+    cursor: pointer;
+}
+/*------ end sm-navigation ------*/
+
+
+
+/************ search ***********/
+#searchBar, #userSearchField {
+    background: none repeat scroll 0 0 #EDEDED;
+    border: 0 solid #C7C7C7;
+    color: #898989;
+    outline: medium none;
+    padding: 5px 10px;
+    margin-top: 8px;
+    width: 280px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 3px #999;
+    -moz-box-shadow: inset 0 1px 3px #999;
+    box-shadow: inset 0 1px 3px #999;
+}
+
+#searchBar.active {
+    background: #fff;
+    border: 0 solid #abd2ff;
+}
+
+#searchbtn, #searchUsers {
+    background: url("../../master-template/images/sm-mag.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    margin: 0 0 0 -27px;
+    padding: 0 0 0 31px;
+    position: relative;
+    text-indent: -9999px;
+    top: 1px;
+    width: 22px;
+}
+
+.sm-search-mag {
+    background: url("../../master-template/images/sm-mag.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: default;
+    height: 22px;
+    margin: 0 0 0 -29px;
+    padding: 0 0 0 31px;
+    position: relative;
+    text-indent: -9999px;
+    top: 0;
+    width: 23px;
+}
+
+.sm-search-x {
+    background: url("../../master-template/images/clear-search-small.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    margin: 0 0 0 -29px;
+    padding: 0 0 0 31px;
+    position: relative;
+    text-indent: -9999px;
+    top: 0;
+    width: 23px;
+}
+
+A.sm-result {
+    font-size:.8em;
+    padding:0;
+}
+
+A.sm-result IMG {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 0 none;
+    float: left;
+    height: 25px;
+    margin-right: 5px;
+    margin-top: 2px;
+    width: 25px;
+}
+
+#sm-navigation fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+#sm-navigation input {
+    margin-left: -26px;
+    margin-top: 8px;
+}
+
+.sm-search {
+    float: right;
+    padding-right: 0;
+}
+
+/************** tabs ****************/
+
+/* root element for tabs  */
+.tabs {
+    list-style: none outside none;
+    padding: 0;
+    display: block;
+    z-index: 5;
+}
+
+ul.tabs {
+    margin-bottom: 0;
+    margin-right: 0;
+    position: relative;
+    top: 0;
+}
+
+.tabs li {
+    float:left;
+    text-indent:0;
+    padding:0;
+    margin-right: 3px !important;
+    list-style-image:none !important;
+}
+
+.tabs a:link, .tabs a:visited, .tabs a:active {
+    background: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #cfcfcf, #ffffff);
+    background-image: -moz-linear-gradient(top, #cfcfcf, #ffffff);
+    background-image: -ms-linear-gradient(top, #cfcfcf, #ffffff);
+    background-image: -o-linear-gradient(top, #cfcfcf, #ffffff);
+    background-image: linear-gradient(top, #cfcfcf, #ffffff);
+    border: 1px solid #bbbbbb;
+    color: #444444;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 15px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 140px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+
+.tabs a:active {
+    outline:none;
+}
+
+.tabs a:hover {
+    background: #cfcfcf !important;
+    border-bottom: 1px solid #bbbbbb;
+    color: #444444;
+}
+
+.tabs a.bbq-current {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border-bottom: 1px solid #FFFFFF;
+    color: #444444;
+}
+
+
+.tabs a.sm-current {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff');
+    border-bottom: 1px solid #FFFFFF;
+    color: #444444;
+}
+.tabs .current, .tabs .current:hover, .tabs li.current a {
+    background: #FFFFFF !important;
+    filter: #ffffff !important;
+    border-bottom: 1px solid #FFFFFF !important;
+}
+
+.panes .pane {
+    display:none;
+}
+
+.sm-tab-links a {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    padding-left: 20px;
+    padding-right: 0;
+    width: auto;
+}
+
+.sm-tab-links a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    background: #ffffff !important;
+    border-bottom: 1px solid #ffffff;
+}
+
+.sm-tab-links img {
+    margin: 0 8px -4px;
+}
+
+/*------ button hover ------*/
+.sm-button-nav {
+    margin: 0;
+    padding: 0 0 0 7px;
+}
+
+.sm-button-nav ul {
+    display: block;
+    padding-left: 0;
+    position: absolute;
+    top: inherit;
+    left: inherit;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    box-shadow: 0 0 3px #333333;
+}
+
+.sm-button-nav ul.children {
+    margin: 28px 0 0 1px;
+    z-index: 100;
+    visibility: hidden;
+    background-color: white;
+}
+
+.sm-button-nav ul.children a {
+    border-right: 0 solid !important;
+}
+
+.sm-button-nav li {
+    display:inline;
+    float:left;
+    height:auto;
+}
+
+.sm-button-nav li li {
+    display:block;
+    float:none;
+}
+
+.sm-button-nav a {
+    color: #FFFFFF;
+}
+
+.sm-button-nav a.selected {
+    color:#000;
+    display: block;
+    text-decoration:none;
+}
+
+/* parent hover */
+ul.sm-button-nav li:hover {
+    background: #11ADD9;
+    color: #EEE !important;
+}
+
+ul.sm-button-nav li.sm-nav-button:hover {
+    background: none;
+}
+
+ul.sm-button-nav li:hover .sm-button{
+    background: #CCC !important;
+    color: #777;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 white;
+}
+
+.sm-button-nav a:hover {
+    color: #ffffff;
+}
+
+.sm-button-nav ul a {
+    color: #444444;
+    display: block;
+    min-width: 140px;
+    padding: 9px 13px;
+    width: auto !important;
+}
+
+.sm-button-nav ul ul a {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.sm-button-nav ul a:hover, .sm-button-nav ul a.selected, .sm-button-nav ul.children li a:hover {
+    background: none repeat scroll 0 0 #11ADD9;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sm-button-nav li:hover ul, .sm-button-nav li.sf ul {
+    visibility: visible;
+}
+
+.sm-button-nav li:hover ul ul, .sm-button-nav li.sf ul ul {
+    visibility: hidden;
+}
+
+.sm-button-nav li:hover ul, .sm-button-nav li li:hover ul, .sm-button-nav li.sf ul, .sm-button-nav li li.sf ul {
+    visibility: visible;
+}
+/*------ end button hover ------*/

@@ -1,0 +1,321 @@
+/** style-guide css starts here **/
+.style-guide-logo {
+    width: 446px;
+}
+
+.toolbar {
+    visibility: hidden;
+}
+
+#main {
+    padding-bottom: 0;
+}
+
+.syntaxhighlighter {
+    border: 1px solid #BBBBBB !important;
+    margin: 0 !important;
+    padding: 10px;
+    width: auto !important;
+    max-height: 200px;
+}
+
+.sm-texture {
+    /*background-image: url("../../../master-sm4c/images/bright_squares.png");*/
+    /*background-image: url("../../../master-sm4c/images/concrete_wall_3.png");*/
+    /*background-image: url("../../../master-sm4c/images/fabric_plaid.png");*/
+    /*background-image: url("../../../master-sm4c/images/groovepaper.png");*/
+    /*background-image: url("../../../master-sm4c/images/square_bg.png");*/
+    /*background-image: url("../../../master-sm4c/images/subtle_freckles.png");*/
+    /*background-image: url("../../../master-sm4c/images/white_plaster.png");*/
+    /*background-image: url("../../../master-sm4c/images/whitey.png");*/
+    background-image: url("../../../master-sm4c/images/handmadepaper.png");
+}
+
+.sm-db {
+    display: block !important;
+}
+
+.col-grid div {
+    background: #eeeeee;
+    text-align: center;
+    color: #909090;
+    padding: 10px 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.sm-col-grid div {
+    text-align: center;
+    color: #909090;
+    margin-bottom: 10px;
+}
+
+.sm-prepend-col div {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+code {
+    background: #e4eaac;
+    padding: 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/*** SecondMarket Colors ***/
+.sm-swatch {
+    height: 110px;
+    width: 110px;
+}
+
+/* green */
+.sm-swatch.green {
+    background: #668F23 !important;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#BCCB33', endColorstr='#668F23');
+    background: -webkit-gradient(linear, left top, left bottom, from(#BCCB33), to(#668F23)) !important;
+    background: -moz-linear-gradient(top,  #BCCB33,  #668F23) !important;
+}
+
+.sm-swatch.green.dark {
+    background: #668F23 !important;
+}
+
+.sm-swatch.green.light {
+    background: #BCCB33 !important;
+}
+
+/* gray */
+.sm-swatch.gray {
+    background: #cccccc;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#cccccc');
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#cccccc));
+    background: -moz-linear-gradient(top,  #ededed,  #cccccc);
+}
+
+.sm-swatch.gray.dark {
+    background: #cccccc !important;
+}
+
+.sm-swatch.gray.light {
+    background: #ededed !important;
+}
+
+.sm-swatch.gray.sm-border {
+    background: #bbbbbb !important;
+}
+
+.sm-swatch.gray.sm-widget-header {
+    background: #DFDFDF !important;
+}
+
+.sm-swatch.gray.sm-quiet {
+    background: #909090 !important;
+}
+
+.sm-swatch.gray.sm-text-color {
+    background: #444444 !important;
+}
+
+.sm-swatch.gray.sm-light-blue {
+    background: #D5EDF8 !important;
+}
+
+.sm-swatch.gray.sm-pcm-color {
+    background: #F0C606 !important;
+}
+
+.sm-swatch.gray.sm-cb-color {
+    background: #00A77E !important;
+}
+
+.sm-swatch.gray.sm-fi-color {
+    background: #F9A01B !important;
+}
+
+.sm-swatch.gray.sm-bc-color {
+    background: #BCCB33 !important;
+}
+
+.sm-swatch.gray.sm-rpe-color {
+    background: #00AEEF !important;
+}
+
+
+/* orange */
+.sm-swatch.orange {
+    background: #DD9927;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB43F', endColorstr='#DD9927') !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFB43F), to(#DD9927)) !important;
+    background: -moz-linear-gradient(top, #FFB43F, #DD9927) !important;
+}
+
+.sm-swatch.orange.dark {
+    background: #DD9927 !important;
+}
+
+.sm-swatch.orange.light {
+    background: #FFB43F !important;
+}
+
+/* blue */
+.sm-swatch.blue {
+    background: #11ADD9 !important;
+}
+
+/* black */
+.sm-swatch.black {
+    background: #67666A;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#67666A', endColorstr='#424143');
+    background: -webkit-gradient(linear, left top, left bottom, from(#67666A), to(#424143));
+    background: -moz-linear-gradient(top, #67666A, #424143);
+}
+
+.sm-swatch.black.dark {
+    background: #424143 !important;
+}
+
+.sm-swatch.black.light {
+    background: #67666A !important;
+}
+
+.sm-bg-color {
+    background-color: #EEE;
+}
+
+.sm-opacity-bg {
+    background-image: url("../images/sm-opacity.png");
+    background-position: center;
+}
+
+/*********************************************************************************************/
+
+/** STUFF THAT IS NOT IN MERCURY YET **/
+input.sm-small-search {
+    width: 75px;
+    padding-right: 30px;
+    background-image: url("../../../master-template/images/sm-mag.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+/*********************************************************************************************/
+
+/** bootstrap popover **/
+.modal-open .popover {
+    z-index: 2060;
+}
+
+.popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1010;
+    display: none;
+    padding: 5px;
+}
+
+.popover.top {
+    margin-top: -5px;
+}
+
+.popover.right {
+    margin-left: 5px;
+}
+
+.popover.bottom {
+    margin-top: 5px;
+}
+
+.popover.left {
+    margin-left: -5px;
+}
+
+.popover.top .arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000000;
+}
+
+.popover.right .arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #000000;
+}
+
+.popover.bottom .arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #000000;
+}
+
+.popover.left .arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #000000;
+}
+
+.popover .arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.popover-inner {
+    padding: 3px;
+    width: 280px;
+    overflow: hidden;
+    background: #000000;
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.popover-title {
+    padding: 9px 15px;
+    line-height: 1;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #bbbbbb;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+}
+
+.popover-content {
+    padding: 14px;
+    background-color: #ffffff;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.popover-content p,
+.popover-content ul,
+.popover-content ol {
+    margin-bottom: 0;
+}
+
+/** end bootstrap popover **/
+
+/*********************************************************************************************/
