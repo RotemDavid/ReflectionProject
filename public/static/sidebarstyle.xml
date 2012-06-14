@@ -21,6 +21,7 @@
         <ul>
             <xsl:for-each select="file">
                 <li>
+                    <div class="open"></div>
                     <span><xsl:value-of select="text()" /></span>
                 </li>
             </xsl:for-each>
