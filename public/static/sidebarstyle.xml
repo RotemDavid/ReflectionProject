@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="/">
+    <ul>
+        <xsl:apply-templates select="folders/folder/folder" />
+    </ul>
+</xsl:template>
+
+<xsl:template match="folder">
+    <li>
+        <div class="open"></div>
+        <span><xsl:value-of select="@name" /></span>
+    </li>
+    <xsl:if test="folder">
+        <ul>
+            <xsl:apply-templates select="folder" />
+        </ul>
+    </xsl:if>
+    <xsl:if test="file">
+        <ul>
+            <xsl:for-each select="file">
+                <li>
+                    <span><xsl:value-of select="text()" /></span>
+                </li>
+            </xsl:for-each>
+        </ul>
+    </xsl:if>
+</xsl:template>
+</xsl:stylesheet>

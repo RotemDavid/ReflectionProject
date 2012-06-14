@@ -1,11 +1,10 @@
 
 li .collapsed {
-	margin-top: 5px;
 	margin-right: 5px;
 	float: left;
 	width: 10px;
 	height: 10px;
-	background-image: url("minusbox.gif");
+	background-image: url("/assets/images/arrow-collapsed.png");
 }
 
 li .open {
@@ -14,7 +13,7 @@ li .open {
 	float: left;
 	width: 10px;
 	height: 10px;
-	background-image: url("arrow-open.png");
+	background-image: url("/assets/images/arrow-open.png");
 }
 
 ul {

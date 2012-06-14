@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<folders>
+  <folder name="xmlfiles">
+    <folder name="example2">
+      <folder name="test2">
+        <folder name="find-trading2">
+          <file>GET.xml</file>
+        </folder>
+        <folder name="find-trading3">
+          <file>POST.xml</file>
+        </folder>
+        <folder name="find2">
+          <file>GET.xml</file>
+        </folder>
+      </folder>
+    </folder>
+    <folder name="exmaple">
+      <folder name="test">
+        <folder name="find">
+          <file>POST.xml</file>
+        </folder>
+        <folder name="find-trading">
+          <file>POST.xml</file>
+        </folder>
+      </folder>
+    </folder>
+  </folder>
+</folders>

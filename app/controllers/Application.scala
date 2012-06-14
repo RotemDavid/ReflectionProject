@@ -2,6 +2,7 @@ package controllers
 
 import play.api._
 import play.api.mvc._
+import templates.Xml
 
 object Application extends Controller {
   
@@ -16,5 +17,6 @@ object Application extends Controller {
       BadRequest("Missing parameter [name]")
     }
   }
+
 
 }
