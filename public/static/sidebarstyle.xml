@@ -21,7 +21,14 @@
         <ul>
             <xsl:for-each select="file">
                 <li>
-                    <span><xsl:value-of select="text()" /></span>
+                    <span>
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat('/assets/xml/', text())"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="text()" />
+                    </xsl:element>
+                    </span>
                 </li>
             </xsl:for-each>
         </ul>
