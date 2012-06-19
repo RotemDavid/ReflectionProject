@@ -28,7 +28,7 @@ $(document).ready(function() {
     }
 
     styleXML("/assets/xml/POST.xml", "/assets/xml/xmltohtml.xml", "#tester1");
-    styleXML("/assets/static/summary.xml", "/assets/static/sidebarstyle.xml", "#sidebar");
+    styleXML("/assets/static/newxmlfiles/summary.xml", "/assets/static/sidebarstyle.xml", "#sidebar");
 
     $("li div").live("click",function() {
         if($(this).parent().next().is("ul")) {

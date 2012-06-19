@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<folders>
+  <folder name="newxmlfiles">
+    <folder name="example2">
+      <folder name="test2">
+        <folder name="find-trading2">
+          <file path="/newxmlfiles/example2/test2/find-trading2/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="find-trading3">
+          <file path="/newxmlfiles/example2/test2/find-trading3/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="find2">
+          <file path="/newxmlfiles/example2/test2/find2/GET.xml">GET.xml</file>
+        </folder>
+      </folder>
+    </folder>
+    <folder name="exmaple">
+      <folder name="test">
+        <folder name="find">
+          <file path="/newxmlfiles/exmaple/test/find/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="find-trading">
+          <file path="/newxmlfiles/exmaple/test/find-trading/POST.xml">POST.xml</file>
+        </folder>
+      </folder>
+    </folder>
+    <file path="/newxmlfiles/summary.xml">summary.xml</file>
+  </folder>
+</folders>

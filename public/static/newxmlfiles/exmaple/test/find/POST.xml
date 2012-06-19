@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>myMethod</name>
+  <mapping>/exmaple/test/find</mapping>
+  <action>POST</action>
+  <parameters>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>False</mapped>
+    </parameter>
+    <parameter>
+      <name>int</name>
+      <mapped>False</mapped>
+    </parameter>
+  </parameters>
+  <returntype>void</returntype>
+</method>
