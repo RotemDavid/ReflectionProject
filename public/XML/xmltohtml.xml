@@ -4,16 +4,16 @@
     <xsl:template match="/">
         <html>
             <body>
-                <div>
+                <div class="sm-bor sm-vac">
                     <ul>
                         <li>
                             <h2>Path</h2>
                             <div class="sm-mbb">
                                 <div>
-                                   <b>
+                                   <h1><code class="sm-orange-text">
                                     <xsl:value-of select="method/name"/>
                                     <xsl:value-of select="method/mapping"/>
-                                    </b>
+                                    </code></h1>
                                 </div>
                             </div>
                         </li>
@@ -62,7 +62,6 @@
                         <li>
                             <hr class="space"/>
                             <h2>Return</h2>
-                            <hr class="space"/>
                             <p><xsl:value-of select="method/returntype"/></p>
 
                         </li>
