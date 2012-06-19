@@ -17,6 +17,15 @@ li .open {
 
 ul li span {
     margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+	width: 10px;
+	height: 10px;
+	background-image: url("/assets/images/arrow-open.png");
+}
+
+ul li span {
+    margin-left: 5px;
 }
 
 ul {

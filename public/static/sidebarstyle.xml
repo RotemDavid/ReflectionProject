@@ -21,6 +21,7 @@
         <ul>
             <xsl:for-each select="file">
                 <li>
+<<<<<<< HEAD
                     <span>
                     <xsl:element name="a">
                         <xsl:attribute name="href">
@@ -29,6 +30,10 @@
                         <xsl:value-of select="text()" />
                     </xsl:element>
                     </span>
+=======
+                    <div class="open"></div>
+                    <span><xsl:value-of select="text()" /></span>
+>>>>>>> b6e8ebe0ce16e3296c56ff4f6acc2421da34a5c7
                 </li>
             </xsl:for-each>
         </ul>
