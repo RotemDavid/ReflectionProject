@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>find</name>
+  <mapping>activitystream/find</mapping>
+  <action>POST</action>
+  <parameters>
+    <parameter>
+      <name>com.secondmarket.activitystream.common.dto.ActivityStreamRequestMessage</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to the web request body [RequestBody]</mappingtype>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.Integer</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <required>False</required>
+        <defaultvalue>0</defaultvalue>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.Integer</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <required>False</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>org.springframework.http.ResponseEntity</returntype>
+</method>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>untrust</name>
+  <mapping>impl/users/network/untrust</mapping>
+  <action>POST</action>
+  <parameters>
+    <parameter>
+      <name>com.secondmarket.userservices.dto.wrappers.UnTrustWrapper</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to the web request body [RequestBody]</mappingtype>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.userservices.dto.wrappers.UnTrustWrapper</returntype>
+</method>

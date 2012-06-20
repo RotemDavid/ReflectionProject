@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>verifyNDASignedByOrg</name>
+  <mapping>impl/users/{userSmid}/audit/organization/verify-nda-signed</mapping>
+  <action>GET</action>
+  <parameters>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <required>True</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a URI template [PathVariable]</mappingtype>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.connector.common.data.MapResponse</returntype>
+</method>

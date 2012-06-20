@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>pushDataToTrading</name>
+  <mapping>impl/assets/integration/pushDataToTrading</mapping>
+  <action>GET</action>
+  <parameters>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <value>mode</value>
+        <required>False</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.connector.common.data.ServiceDataWrapper</returntype>
+</method>

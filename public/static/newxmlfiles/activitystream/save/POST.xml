@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>save</name>
+  <mapping>activitystream/save</mapping>
+  <action>POST</action>
+  <parameters>
+    <parameter>
+      <name>com.secondmarket.activitystream.common.dto.ActivityEventMessage</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to the web request body [RequestBody]</mappingtype>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>org.springframework.http.ResponseEntity</returntype>
+</method>

@@ -15,6 +15,11 @@ li .open {
 	background-image: url("/assets/images/arrow-open.png");
 }
 
+li .btn:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
 ul li span {
     margin-left: 5px;
 }
@@ -30,6 +35,11 @@ ul li {
     padding-left: 5px;
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+td {
+    word-wrap: break-word;
+    max-width: 200px;
 }
 
 #sidebar {

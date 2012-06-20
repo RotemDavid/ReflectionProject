@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>saveAsset</name>
+  <mapping>impl/assets/asset/save</mapping>
+  <action>POST</action>
+  <parameters>
+    <parameter>
+      <name>com.secondmarket.secmaster.dto.wrappers.AssetWrapper</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to the web request body [RequestBody]</mappingtype>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>org.springframework.http.ResponseEntity</returntype>
+</method>

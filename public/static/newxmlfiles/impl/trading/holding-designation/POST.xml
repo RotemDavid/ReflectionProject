@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>find</name>
+  <mapping>impl/trading/holding-designation</mapping>
+  <action>POST</action>
+  <parameters>
+    <parameter>
+      <name>com.secondmarket.trading.dto.wrappers.HoldingDesignationQueryWrapper</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to the web request body [RequestBody]</mappingtype>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.trading.dto.wrappers.HoldingDesignationsWrapper</returntype>
+</method>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>loggedInUsersToActiveUsersRatio</name>
+  <mapping>impl/users/metrics/geckoboard/logged_in_to_users</mapping>
+  <action>GET</action>
+  <returntype>com.secondmarket.connector.dto.GeckoBoardMetricsWrapper</returntype>
+</method>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>getOrgSmidsWithVisibility</name>
+  <mapping>impl/assets/organization/smids_with_visibility</mapping>
+  <action>POST</action>
+  <parameters>
+    <parameter>
+      <name>com.secondmarket.connector.common.data.ServiceDataWrapper</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to the web request body [RequestBody]</mappingtype>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <value>visibility</value>
+        <required>True</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>org.springframework.http.ResponseEntity</returntype>
+</method>

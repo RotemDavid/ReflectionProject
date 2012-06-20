@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>unallocate</name>
+  <mapping>impl/trading/liquidity-event/unallocate</mapping>
+  <action>POST</action>
+  <parameters>
+    <parameter>
+      <name>com.secondmarket.trading.dto.wrappers.LiquidityEventOrderQueryWrapper</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to the web request body [RequestBody]</mappingtype>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.connector.common.data.MapResponse</returntype>
+</method>

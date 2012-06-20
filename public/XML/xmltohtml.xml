@@ -10,10 +10,9 @@
                             <h2>Path</h2>
                             <div class="sm-mbb">
                                 <div>
-                                   <h1><code class="sm-orange-text">
-                                    <xsl:value-of select="method/name"/>
+                                   <h2><code class="sm-orange-text">
                                     <xsl:value-of select="method/mapping"/>
-                                    </code></h1>
+                                    </code></h2>
                                 </div>
                             </div>
                         </li>

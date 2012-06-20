@@ -3,6 +3,7 @@
 $(document).ready(function() {
 
 
+    //Callback should take one argument
     function ajax(link, callback) {
         var xmlhttp = null;
         xmlhttp = new XMLHttpRequest();
@@ -15,31 +16,49 @@ $(document).ready(function() {
         }
     }
 
-    function styleXML(xmlLoc, xslLoc, divID) {
+    function styleXMLSpecial(xmlLoc, xslLoc, divID) {
         styledXML = ajax(xslLoc, function(xsl) {
             ajax(xmlLoc, function(xml) {
+                //Clear the div
                 $(divID).empty();
                 xsltProcessor = new XSLTProcessor();
                 xsltProcessor.importStylesheet(xsl);
                 styledXml = xsltProcessor.transformToFragment(xml, document);
                 $(divID).append(styledXml);
+                //Auto hide all
+                $("li div.btn").each(divClick);    
             })
         });
     }
 
-    styleXML("/assets/xml/POST.xml", "/assets/xml/xmltohtml.xml", "#tester1");
-    styleXML("/assets/static/newxmlfiles/summary.xml", "/assets/static/sidebarstyle.xml", "#sidebar");
+    function styleXML(xmlLoc, xslLoc, divID) {
+        styledXML = ajax(xslLoc, function(xsl) {
+            ajax(xmlLoc, function(xml) {
+                //Clear the div
+                $(divID).empty();
+                xsltProcessor = new XSLTProcessor();
+                xsltProcessor.importStylesheet(xsl);
+                styledXml = xsltProcessor.transformToFragment(xml, document);
+                $(divID).append(styledXml);  
+            })
+        });
+    }
 
-    $("li div").live("click",function() {
-        if($(this).parent().next().is("ul")) {
-            $picDiv = $(this);
-            $nextList = $(this).parent().next();
-            $nextList.slideToggle('fast', function() {
-                $picDiv.toggleClass('collapsed');
-                $picDiv.toggleClass('open');
-            });
-        }
-    });
+    styleXMLSpecial("/assets/static/newxmlfiles/summary.xml", "/assets/static/sidebarstyle.xml", "#sidebar");
+
+    function divClick() {
+        $(this).parent().children(".folders").each(function() {
+            $(this).slideToggle('fast');
+        });
+        $(this).parent().children(".files").each(function() {
+            $(this).slideToggle('fast');
+        });
+        $(this).toggleClass('collapsed');
+        $(this).toggleClass('open');
+    }
+
+    //Behavior on clicking a DIV
+    $("li div.btn").live("click", divClick);
 
     $("span a").live("click", function(e) {
         e.preventDefault();

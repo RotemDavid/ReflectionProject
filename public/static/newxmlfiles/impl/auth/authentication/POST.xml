@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>authenticate</name>
+  <mapping>impl/auth/authentication/</mapping>
+  <action>POST</action>
+  <parameters>
+    <parameter>
+      <name>javax.servlet.http.HttpServletRequest</name>
+      <mapped>False</mapped>
+    </parameter>
+    <parameter>
+      <name>javax.servlet.http.HttpServletResponse</name>
+      <mapped>False</mapped>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.auth.dto.AuthMessage</returntype>
+</method>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>loginsToActiveUsersRatioRealTime</name>
+  <mapping>impl/users/metrics/geckoboard/realtime/logins_to_users</mapping>
+  <action>GET</action>
+  <parameters>
+    <parameter>
+      <name>java.lang.Integer</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <required>False</required>
+        <defaultvalue>30</defaultvalue>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.connector.dto.GeckoBoardMetricsWrapper</returntype>
+</method>
