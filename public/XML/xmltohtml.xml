@@ -50,7 +50,14 @@
                                     <xsl:for-each select="method/parameters/parameter">
                                         <tr>
                                             <td><xsl:value-of select="name"/> </td>
-                                            <td><xsl:value-of select="mapped"/> </td>
+                                            <xsl:choose>
+                                                <xsl:when test="mappinginfo/required">
+                                                    <td><xsl:value-of select="mappinginfo/required"/> </td>    
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <td>True</td>    
+                                                </xsl:otherwise>
+                                            </xsl:choose>
                                             <td><xsl:value-of select="mappinginfo/mappingtype"/></td>
                                             <td><xsl:value-of select="mappinginfo/defaultvalue"/></td>
                                         </tr>
@@ -62,7 +69,6 @@
                             <hr class="space"/>
                             <h2>Return</h2>
                             <p><xsl:value-of select="method/returntype"/></p>
-
                         </li>
                     </ul>
                 </div>
