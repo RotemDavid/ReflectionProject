@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>refreshFilters</name>
-  <mapping>impl/assets/admin/refresh_filters</mapping>
-  <action>GET</action>
-  <returntype>java.util.Map</returntype>
-</method>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>ping</name>
-  <mapping>activitystream/ops/ping</mapping>
-  <action>GET</action>
-  <returntype>void</returntype>
-</method>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>delete</name>
-  <mapping>activitystream/news/delete</mapping>
-  <action>GET</action>
-  <returntype>org.springframework.http.ResponseEntity</returntype>
-</method>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>loggedIn</name>
-  <mapping>impl/users/metrics/geckoboard/logged_in</mapping>
-  <action>GET</action>
-  <returntype>com.secondmarket.connector.dto.GeckoBoardMetricsWrapper</returntype>
-</method>

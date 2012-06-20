@@ -58,3 +58,5 @@ modules
 #Project Specific#
 public/csvfiles
 scripts
+public/static/newxmlfiles
+

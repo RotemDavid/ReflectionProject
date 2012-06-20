@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>get</name>
-  <mapping>impl/assets/test/</mapping>
-  <action>GET</action>
-  <returntype>java.lang.String</returntype>
-</method>

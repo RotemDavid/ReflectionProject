@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>createAccreditationCTA</name>
-  <mapping>impl/users/create_accreditation_cta</mapping>
-  <action>GET</action>
-  <returntype>com.secondmarket.connector.common.data.MapResponse</returntype>
-</method>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>deleteCompany</name>
-  <mapping>impl/assets/organization/delete</mapping>
-  <action></action>
-  <returntype>org.springframework.http.ResponseEntity</returntype>
-</method>
