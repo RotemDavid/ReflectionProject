@@ -7,18 +7,15 @@
                 <div class="sm-bor sm-vac">
                     <ul>
                         <li>
-                            <h2>Path</h2>
-                            <div class="sm-mbb">
-                                <div>
-                                   <h2><code class="sm-orange-text">
+                            <h2>URL
+                                <br />
+                                <code class="sm-orange-text">
                                     <xsl:value-of select="method/mapping"/>
-                                    </code></h2>
-                                </div>
-                            </div>
+                                </code>
+                            </h2>
                         </li>
                         <li>
                             <h2> Method's Information</h2>
-                            <hr class="space"/>
                             <table cellpadding="0" cellspacing="0" border="0" class="sm-table sm-table-border sm-mbb">
                                 <thead>
                                     <tr>
@@ -31,13 +28,11 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <hr class="space"/>
                         </li>
                         <li>
                             <h2> Parameters</h2>
-                            <hr class="space"/>
                             <div id="tester1"> </div>
-                            <table cellpadding="0" cellspacing="0" border="0" class="sm-table sm-table-border sm-mbb">
+                            <table cellpadding="0" cellspacing="0" border="0" class="sm-table sm-table-border sm-mb">
                                 <thead>
                                     <tr>
                                         <th>Type</th>
@@ -66,7 +61,6 @@
                             </table>
                         </li>
                         <li>
-                            <hr class="space"/>
                             <h2>Return</h2>
                             <p><xsl:value-of select="method/returntype"/></p>
                         </li>

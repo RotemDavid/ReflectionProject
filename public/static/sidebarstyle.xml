@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
     <xsl:template match="/folders">
         <ul class="folders">
+            <!-- Style all folders under the "container" folder -->
             <xsl:apply-templates select="folder/folder" />
         </ul>
     </xsl:template>
-
+    <!-- Routine for styling a single folder, recursive -->
     <xsl:template match="folder">
         <!-- Button and Folder Name -->
         <li>
             <div class="open btn"></div>
             <span><xsl:value-of select="@name" /></span>
-        
-        <!-- All files in the folder -->
-        <xsl:if test="file">
-            <ul class="files">
-                <xsl:for-each select="file">
-                    <li>
-                        <span>
-                            <xsl:element name="a">
-                                <xsl:attribute name="href">
-                                    <xsl:value-of select="concat('/assets/static', @path)"/>
-                                </xsl:attribute>
-                                <xsl:value-of select="substring-before(text(), '.xml')" />
-                            </xsl:element>
-                        </span>
-                    </li>
-                </xsl:for-each>
-            </ul>
-        </xsl:if>
-        <!-- All sub-folders -->
-        <xsl:if test="folder">
-            <ul class="folders">
-                <xsl:apply-templates select="folder" />
-            </ul>
-        </xsl:if>
+            <!-- All files in the folder -->
+            <xsl:if test="file">
+                <ul class="files">
+                    <xsl:for-each select="file">
+                        <li>
+                            <span>
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <!-- XML files assumed to be in /assets/static/{somefolder} -->
+                                        <xsl:value-of select="concat('/assets/static', @path)"/>
+                                    </xsl:attribute>
+                                    <!-- Text of the link is filename without any extension -->
+                                    <xsl:value-of select="substring-before(text(), '.')" />
+                                </xsl:element>
+                            </span>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:if>
+            <!-- Resurse over sub folders -->
+            <xsl:if test="folder">
+                <ul class="folders">
+                    <xsl:apply-templates select="folder" />
+                </ul>
+            </xsl:if>
         </li>
-
     </xsl:template>
 </xsl:stylesheet>
