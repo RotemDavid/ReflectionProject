@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>signedUp</name>
-  <mapping>impl/users/metrics/geckoboard/signed_up</mapping>
-  <action>GET</action>
-  <returntype>com.secondmarket.connector.dto.GeckoBoardMetricsWrapper</returntype>
-</method>

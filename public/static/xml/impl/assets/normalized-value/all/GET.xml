@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>getAllNormalizedValues</name>
-  <mapping>impl/assets/normalized-value/all</mapping>
-  <action>GET</action>
-  <returntype>com.secondmarket.secmaster.dto.wrappers.CombosWrapper</returntype>
-</method>

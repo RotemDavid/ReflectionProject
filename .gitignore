@@ -59,4 +59,6 @@ modules
 public/csvfiles
 scripts
 public/static/newxmlfiles
+public/static/xml
+public/static/json
 

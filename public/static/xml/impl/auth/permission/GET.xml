@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>getPermissionNames</name>
-  <mapping>impl/auth/permission/</mapping>
-  <action>GET</action>
-  <returntype>com.secondmarket.auth.dto.StringListMessage</returntype>
-</method>

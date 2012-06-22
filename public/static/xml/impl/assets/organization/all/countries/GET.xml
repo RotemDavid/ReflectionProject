@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>getAllCountries</name>
-  <mapping>impl/assets/organization/all/countries</mapping>
-  <action>GET</action>
-  <returntype>org.springframework.http.ResponseEntity</returntype>
-</method>

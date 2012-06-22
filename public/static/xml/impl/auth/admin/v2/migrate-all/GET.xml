@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>migrateAll</name>
-  <mapping>impl/auth/admin/v2/migrate-all</mapping>
-  <action>GET</action>
-  <returntype>com.secondmarket.connector.common.data.MapResponse</returntype>
-</method>

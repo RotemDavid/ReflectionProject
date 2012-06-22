@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>postForRoot</name>
-  <mapping>impl/auth/policy/</mapping>
-  <action>POST</action>
-  <returntype>com.secondmarket.auth.dto.SecurityPolicyMessage</returntype>
-</method>

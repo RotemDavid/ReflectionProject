@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>getOrganization</name>
-  <mapping>impl/assets/organization/</mapping>
-  <action>GET</action>
-  <returntype>org.springframework.http.ResponseEntity</returntype>
-</method>

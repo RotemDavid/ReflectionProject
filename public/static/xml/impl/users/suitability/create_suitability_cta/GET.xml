@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<method>
-  <name>createSuitabilityCTA</name>
-  <mapping>impl/users/suitability/create_suitability_cta</mapping>
-  <action>GET</action>
-  <returntype>com.secondmarket.connector.common.data.MapResponse</returntype>
-</method>
