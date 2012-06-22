@@ -31,7 +31,9 @@ $(document).ready(function() {
                 xsltProcessor.importStylesheet(xsl);
                 styledXml = xsltProcessor.transformToFragment(xml, document);
                 $(divID).append(styledXml);
-                callback();   
+                if (callback != undefined) {
+                    callback();
+                }   
             })
         });
     }
@@ -54,7 +56,7 @@ $(document).ready(function() {
     }
 
     //Style the sidebar
-    styleXML("/assets/static/newxmlfiles/summary.xml", "/assets/static/sidebarstyle.xml", "#sidebar", collapseAll); 
+    styleXML("/assets/static/xml/summary.xml", "/assets/static/sidebarstyle.xml", "#sidebar", collapseAll); 
 
     //Behavior on clicking a DIV
     $("li div.btn").live("click", divClick);
@@ -63,6 +65,61 @@ $(document).ready(function() {
     $("span a").live("click", function(e) {
         e.preventDefault();
         styleXML($(this).attr("href"), "/assets/xml/xmltohtml.xml", "#tester1");
+    });
+
+    function jsonToHTML(json, div) {
+        $jdiv = div;
+        $jdiv.hide();
+        $jdiv.empty();
+
+        $jdiv.append("<table></table>")
+
+        $table = $jdiv.find("table");
+        $table.attr("cellpadding", 0);
+        $table.attr("cellspacing", 0); 
+        $table.attr("border", 0);
+        $table.addClass("sm-table sm-table-border");   
+
+        $table.append("<thead></thead><tbody></tbody>")
+        $thead = $table.find("thead");
+        $tbody = $table.find("tbody");
+
+        $thead.append("<tr><th>Field</th><th>Type</th></tr>")
+        $.each(json, function(key, val) {
+            //Check for val being an object
+            toDisplay = val;
+            if (val.replace != undefined && val.name != undefined) {
+                fullName = val.name;
+                toLink = val.replace;
+                linked = toJsonLink(toLink);
+                toDisplay = fullName.replace(toLink, linked);
+            }
+            $tbody.append("<tr><td>" + key + "</td><td>" + toDisplay + "<div></div></td></tr>");        
+        });
+
+        $jdiv.slideDown();
+    }
+
+    function toJsonLink(classname) {
+        path = "/assets/static/json/" + classname + ".json";
+        linkText = "<a class = \"returnlink\" href = \"" + path + "\">" + classname + "</a>";
+        return linkText;
+    }
+
+    $(".returnlink").live("click", function(e) {
+        e.preventDefault();
+        link = $(this).attr("href");
+        $next = $(this).next();
+        $.getJSON(link, function(data) {
+            jsonToHTML(data, $next);
+        });
+        $(this).addClass("expanded");
+        $(this).removeClass("returnlink");
+    });
+
+    $(".expanded").live("click", function(e) {
+        e.preventDefault();
+        $(this).next().slideToggle();
     });
 
 });

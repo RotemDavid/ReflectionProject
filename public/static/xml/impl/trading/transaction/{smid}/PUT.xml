@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>update</name>
+  <mapping>impl/trading/transaction/{smid}</mapping>
+  <action>PUT</action>
+  <parameters>
+    <parameter>
+      <name>com.secondmarket.connector.common.data.ServiceDataWrapper</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to the web request body [RequestBody]</mappingtype>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a URI template [PathVariable]</mappingtype>
+        <value>smid</value>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>void</returntype>
+</method>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>postGroup</name>
+  <mapping>impl/auth/group/</mapping>
+  <action>POST</action>
+  <returntype>com.secondmarket.auth.dto.GroupMessage</returntype>
+</method>

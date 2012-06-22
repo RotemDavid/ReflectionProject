@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>get</name>
+  <mapping>impl/users/group/{smid}</mapping>
+  <action>GET</action>
+  <parameters>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a URI template [PathVariable]</mappingtype>
+        <value>smid</value>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.userservices.dto.wrappers.ContactGroupWrapper</returntype>
+</method>

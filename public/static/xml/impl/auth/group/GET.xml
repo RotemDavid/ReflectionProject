@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>getGroup</name>
+  <mapping>impl/auth/group/</mapping>
+  <action>GET</action>
+  <parameters>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <value>q</value>
+        <required>False</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.Integer</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <value>limit</value>
+        <required>False</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.Integer</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <value>offset</value>
+        <required>False</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <value>containedBy</value>
+        <required>False</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.auth.dto.StringListMessage</returntype>
+</method>

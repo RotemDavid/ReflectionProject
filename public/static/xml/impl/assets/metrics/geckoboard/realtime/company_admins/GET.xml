@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>getRealTimeCompanyAdminGeckoMetrics</name>
+  <mapping>impl/assets/metrics/geckoboard/realtime/company_admins</mapping>
+  <action>GET</action>
+  <parameters>
+    <parameter>
+      <name>java.lang.Integer</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <required>False</required>
+        <defaultvalue>90</defaultvalue>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <required>False</required>
+        <defaultvalue>org_with_admin_count</defaultvalue>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.connector.dto.GeckoBoardMetricsWrapper</returntype>
+</method>

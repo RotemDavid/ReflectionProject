@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>findTradeDocument</name>
+  <mapping>impl/assets/document/find-trade-document/{tradeSmid}</mapping>
+  <action>GET</action>
+  <parameters>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a URI template [PathVariable]</mappingtype>
+        <value>tradeSmid</value>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.connector.dto.SearchResult</returntype>
+</method>

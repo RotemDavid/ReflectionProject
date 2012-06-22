@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>loginsToActiveUsersRatio</name>
+  <mapping>impl/users/metrics/geckoboard/logins_to_users</mapping>
+  <action>GET</action>
+  <returntype>com.secondmarket.connector.dto.GeckoBoardMetricsWrapper</returntype>
+</method>

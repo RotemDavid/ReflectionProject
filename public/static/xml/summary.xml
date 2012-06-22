@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<folders rootPath="http://secondmarket.com/">
+  <folder name="xml">
+    <folder name="impl">
+      <folder name="assets">
+        <folder name="admin">
+          <folder name="index_update">
+            <file path="/xml/impl/assets/admin/index_update/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="refresh_combos">
+            <file path="/xml/impl/assets/admin/refresh_combos/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="refresh_filters">
+            <file path="/xml/impl/assets/admin/refresh_filters/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="asset">
+          <folder name="attachment">
+            <folder name="delete">
+              <file path="/xml/impl/assets/asset/attachment/delete/POST.xml">POST.xml</file>
+              <folder name="{smid}">
+                <file path="/xml/impl/assets/asset/attachment/delete/{smid}/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+            <folder name="{smid}">
+              <file path="/xml/impl/assets/asset/attachment/{smid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="combos">
+            <file path="/xml/impl/assets/asset/combos/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="count">
+            <file path="/xml/impl/assets/asset/count/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="cusip">
+            <folder name="{cusip}">
+              <file path="/xml/impl/assets/asset/cusip/{cusip}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="delete">
+            <file path="/xml/impl/assets/asset/delete/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="filters">
+            <file path="/xml/impl/assets/asset/filters/.xml">.xml</file>
+          </folder>
+          <file path="/xml/impl/assets/asset/GET.xml">GET.xml</file>
+          <folder name="list">
+            <file path="/xml/impl/assets/asset/list/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="list-by-smids">
+            <file path="/xml/impl/assets/asset/list-by-smids/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="marktprice">
+            <folder name="save">
+              <file path="/xml/impl/assets/asset/marktprice/save/POST.xml">POST.xml</file>
+            </folder>
+          </folder>
+          <folder name="merge">
+            <file path="/xml/impl/assets/asset/merge/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="save">
+            <file path="/xml/impl/assets/asset/save/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="update">
+            <file path="/xml/impl/assets/asset/update/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="{smid}">
+            <folder name="attachment">
+              <folder name="save">
+                <file path="/xml/impl/assets/asset/{smid}/attachment/save/POST.xml">POST.xml</file>
+              </folder>
+            </folder>
+            <folder name="coupon">
+              <folder name="update">
+                <file path="/xml/impl/assets/asset/{smid}/coupon/update/POST.xml">POST.xml</file>
+              </folder>
+            </folder>
+            <file path="/xml/impl/assets/asset/{smid}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="document">
+          <folder name="delete">
+            <file path="/xml/impl/assets/document/delete/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="find-organization-document">
+            <folder name="{organizationSmid}">
+              <file path="/xml/impl/assets/document/find-organization-document/{organizationSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="find-trade-document">
+            <folder name="{tradeSmid}">
+              <file path="/xml/impl/assets/document/find-trade-document/{tradeSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="find-transaction-document">
+            <folder name="{transactionSmid}">
+              <folder name="{userSmid}">
+                <file path="/xml/impl/assets/document/find-transaction-document/{transactionSmid}/{userSmid}/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+          </folder>
+          <file path="/xml/impl/assets/document/POST.xml">POST.xml</file>
+          <folder name="{smid}">
+            <file path="/xml/impl/assets/document/{smid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/assets/document/{smid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="integration">
+          <folder name="pushDataToTrading">
+            <file path="/xml/impl/assets/integration/pushDataToTrading/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="reindexCompanies">
+            <file path="/xml/impl/assets/integration/reindexCompanies/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="reindexHoldingExchange">
+            <file path="/xml/impl/assets/integration/reindexHoldingExchange/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="metrics">
+          <folder name="geckoboard">
+            <folder name="company_admins">
+              <file path="/xml/impl/assets/metrics/geckoboard/company_admins/GET.xml">GET.xml</file>
+              <folder name="overall">
+                <file path="/xml/impl/assets/metrics/geckoboard/company_admins/overall/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+            <folder name="realtime">
+              <folder name="company_admins">
+                <file path="/xml/impl/assets/metrics/geckoboard/realtime/company_admins/GET.xml">GET.xml</file>
+              </folder>
+              <folder name="trigger">
+                <file path="/xml/impl/assets/metrics/geckoboard/realtime/trigger/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="normalized-value">
+          <folder name="all">
+            <file path="/xml/impl/assets/normalized-value/all/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="organization">
+          <folder name="address">
+            <folder name="delete">
+              <file path="/xml/impl/assets/organization/address/delete/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="{smid}">
+              <file path="/xml/impl/assets/organization/address/{smid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="admins">
+            <folder name="add">
+              <file path="/xml/impl/assets/organization/admins/add/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="getOrgCount">
+              <file path="/xml/impl/assets/organization/admins/getOrgCount/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="remove">
+              <file path="/xml/impl/assets/organization/admins/remove/POST.xml">POST.xml</file>
+            </folder>
+          </folder>
+          <folder name="all">
+            <folder name="countries">
+              <file path="/xml/impl/assets/organization/all/countries/GET.xml">GET.xml</file>
+            </folder>
+            <folder name="industries">
+              <file path="/xml/impl/assets/organization/all/industries/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="attachment">
+            <folder name="delete">
+              <file path="/xml/impl/assets/organization/attachment/delete/POST.xml">POST.xml</file>
+              <folder name="{smid}">
+                <file path="/xml/impl/assets/organization/attachment/delete/{smid}/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+            <folder name="{smid}">
+              <file path="/xml/impl/assets/organization/attachment/{smid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="audit">
+            <folder name="marketdocument">
+              <folder name="find">
+                <file path="/xml/impl/assets/organization/audit/marketdocument/find/POST.xml">POST.xml</file>
+              </folder>
+              <file path="/xml/impl/assets/organization/audit/marketdocument/POST.xml">POST.xml</file>
+            </folder>
+          </folder>
+          <folder name="buyers-group-and-sellers-group">
+            <file path="/xml/impl/assets/organization/buyers-group-and-sellers-group/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="change">
+            <folder name="type">
+              <file path="/xml/impl/assets/organization/change/type/POST.xml">POST.xml</file>
+            </folder>
+          </folder>
+          <folder name="delete">
+            <file path="/xml/impl/assets/organization/delete/.xml">.xml</file>
+            <file path="/xml/impl/assets/organization/delete/POST.xml">POST.xml</file>
+            <folder name="{smid}">
+              <file path="/xml/impl/assets/organization/delete/{smid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="financing">
+            <folder name="delete">
+              <file path="/xml/impl/assets/organization/financing/delete/POST.xml">POST.xml</file>
+              <folder name="{smid}">
+                <file path="/xml/impl/assets/organization/financing/delete/{smid}/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+            <folder name="{smid}">
+              <file path="/xml/impl/assets/organization/financing/{smid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="find">
+            <file path="/xml/impl/assets/organization/find/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="findByAssetCategory">
+            <file path="/xml/impl/assets/organization/findByAssetCategory/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="findByName">
+            <file path="/xml/impl/assets/organization/findByName/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="findDocuments">
+            <file path="/xml/impl/assets/organization/findDocuments/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="findOnlyActiveByName">
+            <file path="/xml/impl/assets/organization/findOnlyActiveByName/GET.xml">GET.xml</file>
+          </folder>
+          <file path="/xml/impl/assets/organization/GET.xml">GET.xml</file>
+          <folder name="list">
+            <file path="/xml/impl/assets/organization/list/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="managers">
+            <folder name="add">
+              <file path="/xml/impl/assets/organization/managers/add/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="getOrgCount">
+              <file path="/xml/impl/assets/organization/managers/getOrgCount/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="remove">
+              <file path="/xml/impl/assets/organization/managers/remove/POST.xml">POST.xml</file>
+            </folder>
+          </folder>
+          <folder name="marketdocument">
+            <folder name="delete">
+              <file path="/xml/impl/assets/organization/marketdocument/delete/POST.xml">POST.xml</file>
+            </folder>
+            <file path="/xml/impl/assets/organization/marketdocument/POST.xml">POST.xml</file>
+            <folder name="retrieve">
+              <file path="/xml/impl/assets/organization/marketdocument/retrieve/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="update">
+              <file path="/xml/impl/assets/organization/marketdocument/update/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="view">
+              <file path="/xml/impl/assets/organization/marketdocument/view/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="{smid}">
+              <file path="/xml/impl/assets/organization/marketdocument/{smid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="member">
+            <folder name="delete">
+              <file path="/xml/impl/assets/organization/member/delete/POST.xml">POST.xml</file>
+              <folder name="{smid}">
+                <file path="/xml/impl/assets/organization/member/delete/{smid}/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+            <folder name="{smid}">
+              <file path="/xml/impl/assets/organization/member/{smid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="merge">
+            <file path="/xml/impl/assets/organization/merge/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="pageview_stats">
+            <file path="/xml/impl/assets/organization/pageview_stats/POST.xml">POST.xml</file>
+            <folder name="{smid}">
+              <file path="/xml/impl/assets/organization/pageview_stats/{smid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="permissions">
+            <file path="/xml/impl/assets/organization/permissions/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="retrieveByName">
+            <file path="/xml/impl/assets/organization/retrieveByName/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="save">
+            <file path="/xml/impl/assets/organization/save/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="smids_with_visibility">
+            <file path="/xml/impl/assets/organization/smids_with_visibility/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="update">
+            <file path="/xml/impl/assets/organization/update/POST.xml">POST.xml</file>
+            <folder name="watchers">
+              <file path="/xml/impl/assets/organization/update/watchers/POST.xml">POST.xml</file>
+            </folder>
+          </folder>
+          <folder name="watcher_stats">
+            <file path="/xml/impl/assets/organization/watcher_stats/POST.xml">POST.xml</file>
+            <folder name="{smid}">
+              <file path="/xml/impl/assets/organization/watcher_stats/{smid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="{smid}">
+            <folder name="address">
+              <folder name="save">
+                <file path="/xml/impl/assets/organization/{smid}/address/save/POST.xml">POST.xml</file>
+              </folder>
+            </folder>
+            <folder name="assets">
+              <folder name="commonstock">
+                <file path="/xml/impl/assets/organization/{smid}/assets/commonstock/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+            <folder name="attachment">
+              <folder name="save">
+                <file path="/xml/impl/assets/organization/{smid}/attachment/save/POST.xml">POST.xml</file>
+              </folder>
+            </folder>
+            <folder name="collateral">
+              <folder name="update">
+                <file path="/xml/impl/assets/organization/{smid}/collateral/update/POST.xml">POST.xml</file>
+              </folder>
+            </folder>
+            <folder name="financing">
+              <folder name="rounds">
+                <file path="/xml/impl/assets/organization/{smid}/financing/rounds/GET.xml">GET.xml</file>
+              </folder>
+              <folder name="save">
+                <file path="/xml/impl/assets/organization/{smid}/financing/save/POST.xml">POST.xml</file>
+              </folder>
+              <folder name="strikeprice">
+                <file path="/xml/impl/assets/organization/{smid}/financing/strikeprice/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+            <file path="/xml/impl/assets/organization/{smid}/GET.xml">GET.xml</file>
+            <folder name="member">
+              <folder name="save">
+                <file path="/xml/impl/assets/organization/{smid}/member/save/POST.xml">POST.xml</file>
+              </folder>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="test">
+          <file path="/xml/impl/assets/test/GET.xml">GET.xml</file>
+          <file path="/xml/impl/assets/test/POST.xml">POST.xml</file>
+        </folder>
+      </folder>
+      <folder name="auth">
+        <folder name="activate">
+          <file path="/xml/impl/auth/activate/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="admin">
+          <folder name="get-last-login">
+            <folder name="{userSmid}">
+              <file path="/xml/impl/auth/admin/get-last-login/{userSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="migrate">
+            <file path="/xml/impl/auth/admin/migrate/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="send-activation-email">
+            <folder name="{userSmid}">
+              <file path="/xml/impl/auth/admin/send-activation-email/{userSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="send_password_reset_email">
+            <folder name="{userSmid}">
+              <file path="/xml/impl/auth/admin/send_password_reset_email/{userSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="v2">
+            <folder name="migrate">
+              <folder name="{nonce}">
+                <file path="/xml/impl/auth/admin/v2/migrate/{nonce}/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+            <folder name="migrate-all">
+              <file path="/xml/impl/auth/admin/v2/migrate-all/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="authentication">
+          <file path="/xml/impl/auth/authentication/GET.xml">GET.xml</file>
+          <file path="/xml/impl/auth/authentication/POST.xml">POST.xml</file>
+          <folder name="ticket">
+            <folder name="verify">
+              <file path="/xml/impl/auth/authentication/ticket/verify/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="authorization">
+          <file path="/xml/impl/auth/authorization/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="available">
+          <folder name="{userId}">
+            <file path="/xml/impl/auth/available/{userId}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="dashboard">
+          <folder name="active-users">
+            <file path="/xml/impl/auth/dashboard/active-users/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="deactivate">
+          <file path="/xml/impl/auth/deactivate/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="group">
+          <file path="/xml/impl/auth/group/GET.xml">GET.xml</file>
+          <file path="/xml/impl/auth/group/POST.xml">POST.xml</file>
+          <folder name="{groupName}">
+            <file path="/xml/impl/auth/group/{groupName}/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="{userSmid}">
+            <file path="/xml/impl/auth/group/{userSmid}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="permission">
+          <file path="/xml/impl/auth/permission/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="policy">
+          <file path="/xml/impl/auth/policy/GET.xml">GET.xml</file>
+          <file path="/xml/impl/auth/policy/POST.xml">POST.xml</file>
+          <folder name="user">
+            <file path="/xml/impl/auth/policy/user/GET.xml">GET.xml</file>
+            <folder name="{user}">
+              <file path="/xml/impl/auth/policy/user/{user}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="{smid}">
+            <file path="/xml/impl/auth/policy/{smid}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="resource">
+          <file path="/xml/impl/auth/resource/GET.xml">GET.xml</file>
+          <folder name="{resourceName}">
+            <file path="/xml/impl/auth/resource/{resourceName}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/auth/resource/{resourceName}/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="suspend">
+          <file path="/xml/impl/auth/suspend/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="unsuspend">
+          <file path="/xml/impl/auth/unsuspend/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="user">
+          <file path="/xml/impl/auth/user/GET.xml">GET.xml</file>
+          <file path="/xml/impl/auth/user/POST.xml">POST.xml</file>
+          <folder name="{userId}">
+            <file path="/xml/impl/auth/user/{userId}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/auth/user/{userId}/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="userGroupAudits">
+          <folder name="{userName}">
+            <file path="/xml/impl/auth/userGroupAudits/{userName}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="userupdate">
+          <folder name="{userSmid}">
+            <file path="/xml/impl/auth/userupdate/{userSmid}/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="ops">
+        <folder name="ping">
+          <file path="/xml/impl/ops/ping/GET.xml">GET.xml</file>
+        </folder>
+      </folder>
+      <folder name="trading">
+        <folder name="activatePortfolio">
+          <file path="/xml/impl/trading/activatePortfolio/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="asset">
+          <file path="/xml/impl/trading/asset/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="bank-info">
+          <file path="/xml/impl/trading/bank-info/DELETE.xml">DELETE.xml</file>
+          <file path="/xml/impl/trading/bank-info/POST.xml">POST.xml</file>
+          <folder name="{smid}">
+            <file path="/xml/impl/trading/bank-info/{smid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/trading/bank-info/{smid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="bank-info-clear">
+          <folder name="{smid}">
+            <file path="/xml/impl/trading/bank-info-clear/{smid}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="buyorders">
+          <file path="/xml/impl/trading/buyorders/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="close">
+          <folder name="{liquidityEventSmid}">
+            <file path="/xml/impl/trading/close/{liquidityEventSmid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="company">
+          <folder name="{orgSmid}">
+            <folder name="holding">
+              <file path="/xml/impl/trading/company/{orgSmid}/holding/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="delete_asset">
+          <file path="/xml/impl/trading/delete_asset/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="delete_organization">
+          <file path="/xml/impl/trading/delete_organization/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="delete_trading_data">
+          <file path="/xml/impl/trading/delete_trading_data/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="delete_user_assets">
+          <file path="/xml/impl/trading/delete_user_assets/.xml">.xml</file>
+        </folder>
+        <folder name="deletePortfolio">
+          <file path="/xml/impl/trading/deletePortfolio/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="execution">
+          <file path="/xml/impl/trading/execution/DELETE.xml">DELETE.xml</file>
+          <file path="/xml/impl/trading/execution/GET.xml">GET.xml</file>
+          <file path="/xml/impl/trading/execution/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="fill">
+          <folder name="{liquidityEventSmid}">
+            <file path="/xml/impl/trading/fill/{liquidityEventSmid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="fill-to-projected">
+          <folder name="{liquidityEventSmid}">
+            <file path="/xml/impl/trading/fill-to-projected/{liquidityEventSmid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="holders">
+          <folder name="{issuerSmid}">
+            <file path="/xml/impl/trading/holders/{issuerSmid}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="holders-by-visibility">
+          <file path="/xml/impl/trading/holders-by-visibility/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="holding">
+          <folder name="delete">
+            <file path="/xml/impl/trading/holding/delete/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="modifyCreatedUpdatedTs">
+            <file path="/xml/impl/trading/holding/modifyCreatedUpdatedTs/POST.xml">POST.xml</file>
+          </folder>
+          <file path="/xml/impl/trading/holding/POST.xml">POST.xml</file>
+          <folder name="setCreatedTs">
+            <file path="/xml/impl/trading/holding/setCreatedTs/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="status">
+            <folder name="bulkupdate">
+              <file path="/xml/impl/trading/holding/status/bulkupdate/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="update">
+              <file path="/xml/impl/trading/holding/status/update/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="{smid}">
+              <folder name="{status}">
+                <file path="/xml/impl/trading/holding/status/{smid}/{status}/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+          </folder>
+          <folder name="{smid}">
+            <folder name="delete">
+              <file path="/xml/impl/trading/holding/{smid}/delete/GET.xml">GET.xml</file>
+            </folder>
+            <folder name="dependencies">
+              <file path="/xml/impl/trading/holding/{smid}/dependencies/GET.xml">GET.xml</file>
+            </folder>
+            <file path="/xml/impl/trading/holding/{smid}/GET.xml">GET.xml</file>
+            <folder name="owner">
+              <folder name="update">
+                <file path="/xml/impl/trading/holding/{smid}/owner/update/POST.xml">POST.xml</file>
+              </folder>
+            </folder>
+            <file path="/xml/impl/trading/holding/{smid}/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="holding-designation">
+          <file path="/xml/impl/trading/holding-designation/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="holding-order-designation">
+          <file path="/xml/impl/trading/holding-order-designation/DELETE.xml">DELETE.xml</file>
+          <file path="/xml/impl/trading/holding-order-designation/GET.xml">GET.xml</file>
+          <file path="/xml/impl/trading/holding-order-designation/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="holdings">
+          <file path="/xml/impl/trading/holdings/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="holdingsDetailed">
+          <file path="/xml/impl/trading/holdingsDetailed/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="ioi">
+          <folder name="aggregatedData">
+            <file path="/xml/impl/trading/ioi/aggregatedData/GET.xml">GET.xml</file>
+          </folder>
+          <file path="/xml/impl/trading/ioi/GET.xml">GET.xml</file>
+          <file path="/xml/impl/trading/ioi/POST.xml">POST.xml</file>
+          <folder name="{ioiSmid}">
+            <folder name="delete">
+              <file path="/xml/impl/trading/ioi/{ioiSmid}/delete/GET.xml">GET.xml</file>
+            </folder>
+            <file path="/xml/impl/trading/ioi/{ioiSmid}/DELETE.xml">DELETE.xml</file>
+            <file path="/xml/impl/trading/ioi/{ioiSmid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/trading/ioi/{ioiSmid}/POST.xml">POST.xml</file>
+            <file path="/xml/impl/trading/ioi/{ioiSmid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="issuer">
+          <file path="/xml/impl/trading/issuer/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="lesos-with-bank-info">
+          <file path="/xml/impl/trading/lesos-with-bank-info/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="liquidity-event">
+          <folder name="active-liquidity-events">
+            <file path="/xml/impl/trading/liquidity-event/active-liquidity-events/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="allocate">
+            <file path="/xml/impl/trading/liquidity-event/allocate/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="capture">
+            <folder name="snapshot">
+              <file path="/xml/impl/trading/liquidity-event/capture/snapshot/POST.xml">POST.xml</file>
+            </folder>
+          </folder>
+          <folder name="organization">
+            <folder name="{smid}">
+              <file path="/xml/impl/trading/liquidity-event/organization/{smid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="overview">
+            <folder name="{liquidityEventSmid}">
+              <file path="/xml/impl/trading/liquidity-event/overview/{liquidityEventSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <file path="/xml/impl/trading/liquidity-event/POST.xml">POST.xml</file>
+          <folder name="unallocate">
+            <file path="/xml/impl/trading/liquidity-event/unallocate/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="update">
+            <file path="/xml/impl/trading/liquidity-event/update/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="{smid}">
+            <file path="/xml/impl/trading/liquidity-event/{smid}/GET.xml">GET.xml</file>
+            <folder name="holdings">
+              <file path="/xml/impl/trading/liquidity-event/{smid}/holdings/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="liquidity-event-buy-order">
+          <folder name="delete">
+            <file path="/xml/impl/trading/liquidity-event-buy-order/delete/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="overview">
+            <folder name="{liquidityEventSmid}">
+              <file path="/xml/impl/trading/liquidity-event-buy-order/overview/{liquidityEventSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <file path="/xml/impl/trading/liquidity-event-buy-order/POST.xml">POST.xml</file>
+          <folder name="{smid}">
+            <file path="/xml/impl/trading/liquidity-event-buy-order/{smid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/trading/liquidity-event-buy-order/{smid}/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="liquidity-event-buy-orders">
+          <file path="/xml/impl/trading/liquidity-event-buy-orders/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="liquidity-event-sell-order">
+          <folder name="delete">
+            <file path="/xml/impl/trading/liquidity-event-sell-order/delete/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="overview">
+            <folder name="{liquidityEventSmid}">
+              <file path="/xml/impl/trading/liquidity-event-sell-order/overview/{liquidityEventSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <file path="/xml/impl/trading/liquidity-event-sell-order/POST.xml">POST.xml</file>
+          <folder name="{smid}">
+            <folder name="bank-info">
+              <file path="/xml/impl/trading/liquidity-event-sell-order/{smid}/bank-info/GET.xml">GET.xml</file>
+            </folder>
+            <file path="/xml/impl/trading/liquidity-event-sell-order/{smid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/trading/liquidity-event-sell-order/{smid}/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="liquidity-event-sell-orders">
+          <file path="/xml/impl/trading/liquidity-event-sell-orders/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="listing">
+          <file path="/xml/impl/trading/listing/GET.xml">GET.xml</file>
+          <file path="/xml/impl/trading/listing/POST.xml">POST.xml</file>
+          <folder name="{smid}">
+            <folder name="delete">
+              <file path="/xml/impl/trading/listing/{smid}/delete/GET.xml">GET.xml</file>
+            </folder>
+            <file path="/xml/impl/trading/listing/{smid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/trading/listing/{smid}/POST.xml">POST.xml</file>
+            <folder name="status">
+              <folder name="{status}">
+                <file path="/xml/impl/trading/listing/{smid}/status/{status}/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="listings">
+          <file path="/xml/impl/trading/listings/POST.xml">POST.xml</file>
+          <folder name="status">
+            <file path="/xml/impl/trading/listings/status/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="merge_assets">
+          <file path="/xml/impl/trading/merge_assets/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="merge_organizations">
+          <file path="/xml/impl/trading/merge_organizations/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="migrate-orders">
+          <file path="/xml/impl/trading/migrate-orders/PUT.xml">PUT.xml</file>
+        </folder>
+        <folder name="open">
+          <folder name="{liquidityEventSmid}">
+            <file path="/xml/impl/trading/open/{liquidityEventSmid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="openbid">
+          <file path="/xml/impl/trading/openbid/GET.xml">GET.xml</file>
+          <file path="/xml/impl/trading/openbid/POST.xml">POST.xml</file>
+          <folder name="{bidSmid}">
+            <folder name="delete">
+              <file path="/xml/impl/trading/openbid/{bidSmid}/delete/GET.xml">GET.xml</file>
+            </folder>
+            <file path="/xml/impl/trading/openbid/{bidSmid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/trading/openbid/{bidSmid}/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="{smid}">
+            <folder name="status">
+              <file path="/xml/impl/trading/openbid/{smid}/status/GET.xml">GET.xml</file>
+              <folder name="{status}">
+                <file path="/xml/impl/trading/openbid/{smid}/status/{status}/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="openbids">
+          <file path="/xml/impl/trading/openbids/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="order">
+          <file path="/xml/impl/trading/order/DELETE.xml">DELETE.xml</file>
+          <file path="/xml/impl/trading/order/POST.xml">POST.xml</file>
+          <folder name="{smid}">
+            <file path="/xml/impl/trading/order/{smid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/trading/order/{smid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="order-state">
+          <folder name="open">
+            <file path="/xml/impl/trading/order-state/open/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="orders">
+          <file path="/xml/impl/trading/orders/GET.xml">GET.xml</file>
+          <folder name="notify">
+            <file path="/xml/impl/trading/orders/notify/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="pending">
+          <folder name="{liquidityEventSmid}">
+            <file path="/xml/impl/trading/pending/{liquidityEventSmid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="portfolio">
+          <file path="/xml/impl/trading/portfolio/GET.xml">GET.xml</file>
+          <file path="/xml/impl/trading/portfolio/POST.xml">POST.xml</file>
+          <folder name="{smid}">
+            <file path="/xml/impl/trading/portfolio/{smid}/GET.xml">GET.xml</file>
+            <folder name="notify">
+              <file path="/xml/impl/trading/portfolio/{smid}/notify/POST.xml">POST.xml</file>
+            </folder>
+            <file path="/xml/impl/trading/portfolio/{smid}/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="sellorders">
+          <file path="/xml/impl/trading/sellorders/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="stats">
+          <folder name="{issuerSmid}">
+            <file path="/xml/impl/trading/stats/{issuerSmid}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="trade">
+          <file path="/xml/impl/trading/trade/POST.xml">POST.xml</file>
+          <folder name="status">
+            <folder name="update">
+              <file path="/xml/impl/trading/trade/status/update/PUT.xml">PUT.xml</file>
+            </folder>
+          </folder>
+          <folder name="transactions">
+            <folder name="{participantSmid}">
+              <file path="/xml/impl/trading/trade/transactions/{participantSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="{smid}">
+            <file path="/xml/impl/trading/trade/{smid}/DELETE.xml">DELETE.xml</file>
+            <file path="/xml/impl/trading/trade/{smid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/trading/trade/{smid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="trades">
+          <file path="/xml/impl/trading/trades/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="transaction">
+          <file path="/xml/impl/trading/transaction/POST.xml">POST.xml</file>
+          <folder name="unmatched_buyer_shares">
+            <folder name="{liquidityEventSmid}">
+              <file path="/xml/impl/trading/transaction/unmatched_buyer_shares/{liquidityEventSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="unmatched_seller_shares">
+            <folder name="{liquidityEventSmid}">
+              <file path="/xml/impl/trading/transaction/unmatched_seller_shares/{liquidityEventSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="{smid}">
+            <file path="/xml/impl/trading/transaction/{smid}/DELETE.xml">DELETE.xml</file>
+            <file path="/xml/impl/trading/transaction/{smid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/trading/transaction/{smid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="transactions">
+          <file path="/xml/impl/trading/transactions/GET.xml">GET.xml</file>
+          <folder name="{buyerOrSellerSmid}">
+            <file path="/xml/impl/trading/transactions/{buyerOrSellerSmid}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="user-bank-info">
+          <file path="/xml/impl/trading/user-bank-info/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="{userSmid}">
+          <folder name="set_order_status_to_open">
+            <file path="/xml/impl/trading/{userSmid}/set_order_status_to_open/.xml">.xml</file>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="users">
+        <folder name="acc">
+          <folder name="acc_types">
+            <file path="/xml/impl/users/acc/acc_types/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="questions">
+            <file path="/xml/impl/users/acc/questions/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="{userSmid}">
+            <folder name="acc_type">
+              <folder name="{accreditationType}">
+                <file path="/xml/impl/users/acc/{userSmid}/acc_type/{accreditationType}/POST.xml">POST.xml</file>
+              </folder>
+            </folder>
+            <file path="/xml/impl/users/acc/{userSmid}/DELETE.xml">DELETE.xml</file>
+            <folder name="exist">
+              <file path="/xml/impl/users/acc/{userSmid}/exist/GET.xml">GET.xml</file>
+            </folder>
+            <file path="/xml/impl/users/acc/{userSmid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/users/acc/{userSmid}/POST.xml">POST.xml</file>
+            <file path="/xml/impl/users/acc/{userSmid}/PUT.xml">PUT.xml</file>
+            <folder name="status">
+              <folder name="{accreditationStatus}">
+                <file path="/xml/impl/users/acc/{userSmid}/status/{accreditationStatus}/POST.xml">POST.xml</file>
+              </folder>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="audit">
+          <folder name="find">
+            <file path="/xml/impl/users/audit/find/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="log">
+            <file path="/xml/impl/users/audit/log/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="nda-signed">
+            <file path="/xml/impl/users/audit/nda-signed/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="tos">
+            <folder name="sign">
+              <file path="/xml/impl/users/audit/tos/sign/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="verify">
+              <folder name="{userSmid}">
+                <file path="/xml/impl/users/audit/tos/verify/{userSmid}/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+          </folder>
+          <folder name="user">
+            <folder name="{userSmid}">
+              <folder name="type">
+                <file path="/xml/impl/users/audit/user/{userSmid}/type/POST.xml">POST.xml</file>
+              </folder>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="check-claim-company-request">
+          <folder name="{orgSmid}">
+            <folder name="{userSmid}">
+              <file path="/xml/impl/users/check-claim-company-request/{orgSmid}/{userSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="check-email-exists">
+          <file path="/xml/impl/users/check-email-exists/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="check-email-linked">
+          <file path="/xml/impl/users/check-email-linked/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="claim-company">
+          <file path="/xml/impl/users/claim-company/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="clear-employer">
+          <file path="/xml/impl/users/clear-employer/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="contact">
+          <folder name="check-email-exists">
+            <file path="/xml/impl/users/contact/check-email-exists/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="get-by-email">
+            <file path="/xml/impl/users/contact/get-by-email/GET.xml">GET.xml</file>
+          </folder>
+          <file path="/xml/impl/users/contact/POST.xml">POST.xml</file>
+          <folder name="{smid}">
+            <file path="/xml/impl/users/contact/{smid}/DELETE.xml">DELETE.xml</file>
+            <file path="/xml/impl/users/contact/{smid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/users/contact/{smid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="countWatchers">
+          <file path="/xml/impl/users/countWatchers/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="create_accreditation_cta">
+          <file path="/xml/impl/users/create_accreditation_cta/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="deactivate">
+          <file path="/xml/impl/users/deactivate/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="entity-rep">
+          <file path="/xml/impl/users/entity-rep/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="group">
+          <file path="/xml/impl/users/group/POST.xml">POST.xml</file>
+          <folder name="{smid}">
+            <file path="/xml/impl/users/group/{smid}/DELETE.xml">DELETE.xml</file>
+            <file path="/xml/impl/users/group/{smid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/users/group/{smid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="group-members">
+          <folder name="{smid}">
+            <file path="/xml/impl/users/group-members/{smid}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="group-members-add">
+          <folder name="{smid}">
+            <file path="/xml/impl/users/group-members-add/{smid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="group-members-remove">
+          <folder name="{smid}">
+            <file path="/xml/impl/users/group-members-remove/{smid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="groups">
+          <file path="/xml/impl/users/groups/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="metrics">
+          <folder name="geckoboard">
+            <folder name="accredited_investors">
+              <file path="/xml/impl/users/metrics/geckoboard/accredited_investors/GET.xml">GET.xml</file>
+            </folder>
+            <folder name="completed_profile">
+              <file path="/xml/impl/users/metrics/geckoboard/completed_profile/GET.xml">GET.xml</file>
+            </folder>
+            <folder name="logged_in">
+              <file path="/xml/impl/users/metrics/geckoboard/logged_in/GET.xml">GET.xml</file>
+            </folder>
+            <folder name="logged_in_to_users">
+              <file path="/xml/impl/users/metrics/geckoboard/logged_in_to_users/GET.xml">GET.xml</file>
+            </folder>
+            <folder name="logins_to_users">
+              <file path="/xml/impl/users/metrics/geckoboard/logins_to_users/GET.xml">GET.xml</file>
+            </folder>
+            <folder name="realtime">
+              <folder name="accredited_investors">
+                <file path="/xml/impl/users/metrics/geckoboard/realtime/accredited_investors/GET.xml">GET.xml</file>
+              </folder>
+              <folder name="completed_profile">
+                <file path="/xml/impl/users/metrics/geckoboard/realtime/completed_profile/GET.xml">GET.xml</file>
+              </folder>
+              <folder name="logged_in">
+                <file path="/xml/impl/users/metrics/geckoboard/realtime/logged_in/GET.xml">GET.xml</file>
+              </folder>
+              <folder name="logged_in_to_users">
+                <file path="/xml/impl/users/metrics/geckoboard/realtime/logged_in_to_users/GET.xml">GET.xml</file>
+              </folder>
+              <folder name="logins_to_users">
+                <file path="/xml/impl/users/metrics/geckoboard/realtime/logins_to_users/GET.xml">GET.xml</file>
+              </folder>
+              <folder name="signed_up">
+                <file path="/xml/impl/users/metrics/geckoboard/realtime/signed_up/GET.xml">GET.xml</file>
+              </folder>
+              <folder name="trigger">
+                <file path="/xml/impl/users/metrics/geckoboard/realtime/trigger/GET.xml">GET.xml</file>
+              </folder>
+              <folder name="watch_items_per_user">
+                <file path="/xml/impl/users/metrics/geckoboard/realtime/watch_items_per_user/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+            <folder name="signed_up">
+              <file path="/xml/impl/users/metrics/geckoboard/signed_up/GET.xml">GET.xml</file>
+            </folder>
+            <folder name="watch_items_per_user">
+              <file path="/xml/impl/users/metrics/geckoboard/watch_items_per_user/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="network">
+          <folder name="find-inviter">
+            <folder name="{token}">
+              <file path="/xml/impl/users/network/find-inviter/{token}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="invitation">
+            <folder name="accept">
+              <file path="/xml/impl/users/network/invitation/accept/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="reject">
+              <file path="/xml/impl/users/network/invitation/reject/POST.xml">POST.xml</file>
+            </folder>
+          </folder>
+          <folder name="invite">
+            <file path="/xml/impl/users/network/invite/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="mail-invitations">
+            <file path="/xml/impl/users/network/mail-invitations/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="untrust">
+            <file path="/xml/impl/users/network/untrust/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="{user}">
+            <file path="/xml/impl/users/network/{user}/GET.xml">GET.xml</file>
+            <folder name="invitations">
+              <file path="/xml/impl/users/network/{user}/invitations/GET.xml">GET.xml</file>
+              <folder name="pending-count">
+                <file path="/xml/impl/users/network/{user}/invitations/pending-count/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+            <file path="/xml/impl/users/network/{user}/POST.xml">POST.xml</file>
+            <folder name="smids">
+              <file path="/xml/impl/users/network/{user}/smids/.xml">.xml</file>
+            </folder>
+            <folder name="status">
+              <file path="/xml/impl/users/network/{user}/status/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="networkWatchlist">
+          <folder name="{userSmid}">
+            <file path="/xml/impl/users/networkWatchlist/{userSmid}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="opportunity">
+          <folder name="by-query">
+            <file path="/xml/impl/users/opportunity/by-query/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="featured">
+            <folder name="{userSmid}">
+              <file path="/xml/impl/users/opportunity/featured/{userSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="for">
+            <folder name="{underlyingSmid}">
+              <file path="/xml/impl/users/opportunity/for/{underlyingSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="list">
+            <file path="/xml/impl/users/opportunity/list/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="not-interested">
+            <folder name="{oppSmid}">
+              <folder name="{userSmid}">
+                <file path="/xml/impl/users/opportunity/not-interested/{oppSmid}/{userSmid}/PUT.xml">PUT.xml</file>
+              </folder>
+            </folder>
+          </folder>
+          <file path="/xml/impl/users/opportunity/POST.xml">POST.xml</file>
+          <folder name="{smidOrSlug}">
+            <file path="/xml/impl/users/opportunity/{smidOrSlug}/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="{smid}">
+            <file path="/xml/impl/users/opportunity/{smid}/PUT.xml">PUT.xml</file>
+          </folder>
+        </folder>
+        <folder name="org">
+          <folder name="delete">
+            <file path="/xml/impl/users/org/delete/POST.xml">POST.xml</file>
+          </folder>
+          <folder name="merge">
+            <file path="/xml/impl/users/org/merge/POST.xml">POST.xml</file>
+          </folder>
+          <file path="/xml/impl/users/org/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="people">
+          <file path="/xml/impl/users/people/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="profile">
+          <folder name="background-check">
+            <folder name="{backgroundCheckStatus}">
+              <file path="/xml/impl/users/profile/background-check/{backgroundCheckStatus}/POST.xml">POST.xml</file>
+            </folder>
+          </folder>
+          <folder name="initiate">
+            <folder name="background-check">
+              <file path="/xml/impl/users/profile/initiate/background-check/POST.xml">POST.xml</file>
+            </folder>
+          </folder>
+          <file path="/xml/impl/users/profile/POST.xml">POST.xml</file>
+          <folder name="{profileName}">
+            <file path="/xml/impl/users/profile/{profileName}/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="{userSmid}">
+            <folder name="background-check">
+              <file path="/xml/impl/users/profile/{userSmid}/background-check/GET.xml">GET.xml</file>
+              <folder name="{backgroundCheckStatus}">
+                <file path="/xml/impl/users/profile/{userSmid}/background-check/{backgroundCheckStatus}/POST.xml">POST.xml</file>
+              </folder>
+            </folder>
+            <folder name="background-check-status">
+              <file path="/xml/impl/users/profile/{userSmid}/background-check-status/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="background-check-v2">
+              <file path="/xml/impl/users/profile/{userSmid}/background-check-v2/POST.xml">POST.xml</file>
+            </folder>
+            <file path="/xml/impl/users/profile/{userSmid}/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="profile-by-smid">
+          <folder name="{profileSmid}">
+            <file path="/xml/impl/users/profile-by-smid/{profileSmid}/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="profile-import-data">
+          <file path="/xml/impl/users/profile-import-data/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="profile-internal">
+          <folder name="{userSmid}">
+            <file path="/xml/impl/users/profile-internal/{userSmid}/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="raw-watchers">
+          <file path="/xml/impl/users/raw-watchers/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="raw-watchers-count">
+          <file path="/xml/impl/users/raw-watchers-count/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="reindex">
+          <file path="/xml/impl/users/reindex/GET.xml">GET.xml</file>
+        </folder>
+        <folder name="suitability">
+          <folder name="create_suitability_cta">
+            <file path="/xml/impl/users/suitability/create_suitability_cta/GET.xml">GET.xml</file>
+          </folder>
+          <folder name="isCompleted">
+            <folder name="{userSmid}">
+              <file path="/xml/impl/users/suitability/isCompleted/{userSmid}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="rep_type">
+            <folder name="{repType}">
+              <file path="/xml/impl/users/suitability/rep_type/{repType}/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="{userSmid}">
+            <file path="/xml/impl/users/suitability/{userSmid}/DELETE.xml">DELETE.xml</file>
+            <file path="/xml/impl/users/suitability/{userSmid}/GET.xml">GET.xml</file>
+            <file path="/xml/impl/users/suitability/{userSmid}/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="suspend">
+          <file path="/xml/impl/users/suspend/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="unsuspend">
+          <file path="/xml/impl/users/unsuspend/POST.xml">POST.xml</file>
+        </folder>
+        <folder name="update-sm4c-digest">
+          <folder name="{frequency}">
+            <file path="/xml/impl/users/update-sm4c-digest/{frequency}/POST.xml">POST.xml</file>
+          </folder>
+        </folder>
+        <folder name="watchers">
+          <file path="/xml/impl/users/watchers/GET.xml">GET.xml</file>
+          <folder name="replicate">
+            <file path="/xml/impl/users/watchers/replicate/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="{employerSmid}">
+          <folder name="employees">
+            <file path="/xml/impl/users/{employerSmid}/employees/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+        <folder name="{userSmid}">
+          <folder name="audit">
+            <folder name="organization">
+              <folder name="verify-nda-signed">
+                <file path="/xml/impl/users/{userSmid}/audit/organization/verify-nda-signed/GET.xml">GET.xml</file>
+              </folder>
+            </folder>
+            <folder name="verify-nda-signed">
+              <file path="/xml/impl/users/{userSmid}/audit/verify-nda-signed/GET.xml">GET.xml</file>
+            </folder>
+          </folder>
+          <folder name="watchlist">
+            <folder name="add">
+              <file path="/xml/impl/users/{userSmid}/watchlist/add/POST.xml">POST.xml</file>
+            </folder>
+            <folder name="all">
+              <file path="/xml/impl/users/{userSmid}/watchlist/all/GET.xml">GET.xml</file>
+            </folder>
+            <folder name="delete">
+              <file path="/xml/impl/users/{userSmid}/watchlist/delete/POST.xml">POST.xml</file>
+            </folder>
+            <file path="/xml/impl/users/{userSmid}/watchlist/GET.xml">GET.xml</file>
+          </folder>
+        </folder>
+      </folder>
+    </folder>
+    <file path="/xml/summary.xml">summary.xml</file>
+  </folder>
+</folders>

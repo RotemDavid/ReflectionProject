@@ -1,0 +1,1 @@
+{"SELL":"class com.secondmarket.trading.dto.Side","BUY":{"replace":"class com.secondmarket.trading.dto.Side","name":"class com.secondmarket.trading.dto.Side"},"name":"class java.lang.String","$VALUES":"class [Lcom.secondmarket.trading.dto.Side;","ordinal":"int"}

@@ -44,7 +44,27 @@
                                 <tbody>
                                     <xsl:for-each select="method/parameters/parameter">
                                         <tr>
-                                            <td><xsl:value-of select="name"/> </td>
+                                            <xsl:choose>
+                                                <xsl:when test="contains(name, 'java') or not(contains(name, '.'))">
+                                                    <td><xsl:value-of select="name"/> </td>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <td>
+                                                        <xsl:element name="a">
+                                                            <xsl:attribute name="href">
+                                                                <xsl:value-of select="concat('/assets/static/json/', concat(name, '.json'))"/>
+                                                            </xsl:attribute>
+                                                            <xsl:attribute name="class">
+                                                                returnlink
+                                                            </xsl:attribute>
+                                                            <xsl:value-of select="name" />
+                                                        </xsl:element>
+                                                        <div>
+                                                        </div>
+                                                    </td>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+
                                             <xsl:choose>
                                                 <xsl:when test="mappinginfo/required">
                                                     <td><xsl:value-of select="mappinginfo/required"/> </td>    
@@ -60,9 +80,19 @@
                                 </tbody>
                             </table>
                         </li>
-                        <li>
+                        <li class="return">
                             <h2>Return</h2>
-                            <p><xsl:value-of select="method/returntype"/></p>
+                            <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="concat('/assets/static/json/', concat(method/returntype, '.json'))"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="class">
+                                        returnlink
+                                    </xsl:attribute>
+                                    <xsl:value-of select="method/returntype" />
+                            </xsl:element>
+                            <div id="returnJSON">       
+                            </div>
                         </li>
                     </ul>
                 </div>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method>
+  <name>verify</name>
+  <mapping>impl/auth/authorization/</mapping>
+  <action>GET</action>
+  <parameters>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <value>user</value>
+        <required>False</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <value>group</value>
+        <required>False</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <value>resource</value>
+        <required>False</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+    <parameter>
+      <name>java.lang.String</name>
+      <mapped>True</mapped>
+      <mappinginfo>
+        <mappingtype>Parameter should be bound to a web request parameter [RequestParam]</mappingtype>
+        <value>permission</value>
+        <required>False</required>
+        <defaultvalue></defaultvalue>
+      </mappinginfo>
+    </parameter>
+  </parameters>
+  <returntype>com.secondmarket.auth.dto.AuthorizationResponseMessage</returntype>
+</method>
